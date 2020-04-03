@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TeragramDirectoryStructureV3>
+<CaseSensitiveConcepts/>
+<RelevancyType><![CDATA[1]]></RelevancyType>
+<UniqueCategoryIDCheck><![CDATA[1]]></UniqueCategoryIDCheck>
+<Topic>
+<StringID><![CDATA[Top]]></StringID>
+<catpath><![CDATA[Top]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[Top]]></DisplayName>
+<Name><![CDATA[Top]]></Name>
+<ShortName><![CDATA[Top]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/coronavirus]]></StringID>
+<catpath><![CDATA[Top/coronavirus]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,"коронавірус*")) 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Коронавірус]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[coronavirus]]></DisplayName>
+<Name><![CDATA[coronavirus]]></Name>
+<ShortName><![CDATA[coronavirus]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/economics]]></StringID>
+<catpath><![CDATA[Top/economics]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,"економіка@")) 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[economics]]></DisplayName>
+<Name><![CDATA[economics]]></Name>
+<ShortName><![CDATA[economics]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/economics/crisis]]></StringID>
+<catpath><![CDATA[Top/economics/crisis]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[crisis]]></DisplayName>
+<Name><![CDATA[crisis]]></Name>
+<ShortName><![CDATA[crisis]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/economics/coronacrisis]]></StringID>
+<catpath><![CDATA[Top/economics/coronacrisis]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[coronacrisis]]></DisplayName>
+<Name><![CDATA[coronacrisis]]></Name>
+<ShortName><![CDATA[coronacrisis]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/economics/coronajobloss]]></StringID>
+<catpath><![CDATA[Top/economics/coronajobloss]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[coronajobloss]]></DisplayName>
+<Name><![CDATA[coronajobloss]]></Name>
+<ShortName><![CDATA[coronajobloss]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/economics/coronabusiness]]></StringID>
+<catpath><![CDATA[Top/economics/coronabusiness]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[coronabusiness]]></DisplayName>
+<Name><![CDATA[coronabusiness]]></Name>
+<ShortName><![CDATA[coronabusiness]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/economics/coronaimport]]></StringID>
+<catpath><![CDATA[Top/economics/coronaimport]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[coronaimport]]></DisplayName>
+<Name><![CDATA[coronaimport]]></Name>
+<ShortName><![CDATA[coronaimport]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/health]]></StringID>
+<catpath><![CDATA[Top/health]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,"здоров*")) 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Здоров'я]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[health]]></DisplayName>
+<Name><![CDATA[health]]></Name>
+<ShortName><![CDATA[health]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/health/dissemination]]></StringID>
+<catpath><![CDATA[Top/health/dissemination]]></catpath>
+<rules type="EMPTY">
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Здоров'я\dissemination]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[dissemination]]></DisplayName>
+<Name><![CDATA[dissemination]]></Name>
+<ShortName><![CDATA[dissemination]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/health/illness]]></StringID>
+<catpath><![CDATA[Top/health/illness]]></catpath>
+<rules type="EMPTY">
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Здоров'я\illness]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[illness]]></DisplayName>
+<Name><![CDATA[illness]]></Name>
+<ShortName><![CDATA[illness]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/health/recover]]></StringID>
+<catpath><![CDATA[Top/health/recover]]></catpath>
+<rules type="EMPTY">
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Здоров'я\recover]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[recover]]></DisplayName>
+<Name><![CDATA[recover]]></Name>
+<ShortName><![CDATA[recover]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/health/death]]></StringID>
+<catpath><![CDATA[Top/health/death]]></catpath>
+<rules type="EMPTY">
+</rules>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Здоров'я/death]]></TestPath>
+<DisplayName><![CDATA[death]]></DisplayName>
+<Name><![CDATA[death]]></Name>
+<ShortName><![CDATA[death]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/health/potentialdeath]]></StringID>
+<catpath><![CDATA[Top/health/potentialdeath]]></catpath>
+<rules type="EMPTY">
+</rules>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Здоров'я/potentialdeath]]></TestPath>
+<DisplayName><![CDATA[potentialdeath]]></DisplayName>
+<Name><![CDATA[potentialdeath]]></Name>
+<ShortName><![CDATA[potentialdeath]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/society]]></StringID>
+<catpath><![CDATA[Top/society]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,"суспільство@","громад*")) 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Суспільство]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[society]]></DisplayName>
+<Name><![CDATA[society]]></Name>
+<ShortName><![CDATA[society]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/society/education]]></StringID>
+<catpath><![CDATA[Top/society/education]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Суспільство\education]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[education]]></DisplayName>
+<Name><![CDATA[education]]></Name>
+<ShortName><![CDATA[education]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/society/entertaiment]]></StringID>
+<catpath><![CDATA[Top/society/entertaiment]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Суспільство\entertaiment]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[entertaiment]]></DisplayName>
+<Name><![CDATA[entertaiment]]></Name>
+<ShortName><![CDATA[entertaiment]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/society/transport]]></StringID>
+<catpath><![CDATA[Top/society/transport]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Суспільство\transport]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[transport]]></DisplayName>
+<Name><![CDATA[transport]]></Name>
+<ShortName><![CDATA[transport]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/society/tourism]]></StringID>
+<catpath><![CDATA[Top/society/tourism]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,"переміщ*","подорож*","перевез*"))]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Україна]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[tourism]]></DisplayName>
+<Name><![CDATA[tourism]]></Name>
+<ShortName><![CDATA[tourism]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/society/histeria]]></StringID>
+<catpath><![CDATA[Top/society/histeria]]></catpath>
+<rules type="EMPTY">
+</rules>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Суспільство/histeria]]></TestPath>
+<DisplayName><![CDATA[histeria]]></DisplayName>
+<Name><![CDATA[histeria]]></Name>
+<ShortName><![CDATA[histeria]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/society/depression]]></StringID>
+<catpath><![CDATA[Top/society/depression]]></catpath>
+<rules type="EMPTY">
+</rules>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Суспільство/depression]]></TestPath>
+<DisplayName><![CDATA[depression]]></DisplayName>
+<Name><![CDATA[depression]]></Name>
+<ShortName><![CDATA[depression]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/sport]]></StringID>
+<catpath><![CDATA[Top/sport]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,"спорт*")) 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Спорт]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[sport]]></DisplayName>
+<Name><![CDATA[sport]]></Name>
+<ShortName><![CDATA[sport]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/sport/events]]></StringID>
+<catpath><![CDATA[Top/sport/events]]></catpath>
+<rules type="EMPTY">
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Спорт\events]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[events]]></DisplayName>
+<Name><![CDATA[events]]></Name>
+<ShortName><![CDATA[events]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/sport/coronacanceledevents]]></StringID>
+<catpath><![CDATA[Top/sport/coronacanceledevents]]></catpath>
+<rules type="EMPTY">
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Спорт\coronacanceledevents]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[coronacanceledevents]]></DisplayName>
+<Name><![CDATA[coronacanceledevents]]></Name>
+<ShortName><![CDATA[coronacanceledevents]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/politics]]></StringID>
+<catpath><![CDATA[Top/politics]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,"політи*")) 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Політика]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[politics]]></DisplayName>
+<Name><![CDATA[politics]]></Name>
+<ShortName><![CDATA[politics]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/politics/newlaws]]></StringID>
+<catpath><![CDATA[Top/politics/newlaws]]></catpath>
+<rules type="EMPTY">
+</rules>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Політика/newlaws]]></TestPath>
+<DisplayName><![CDATA[newlaws]]></DisplayName>
+<Name><![CDATA[newlaws]]></Name>
+<ShortName><![CDATA[newlaws]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/politics/illpoliticians]]></StringID>
+<catpath><![CDATA[Top/politics/illpoliticians]]></catpath>
+<rules type="EMPTY">
+</rules>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Політика/illpoliticians]]></TestPath>
+<DisplayName><![CDATA[illpoliticians]]></DisplayName>
+<Name><![CDATA[illpoliticians]]></Name>
+<ShortName><![CDATA[illpoliticians]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/technologies]]></StringID>
+<catpath><![CDATA[Top/technologies]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[technologies]]></DisplayName>
+<Name><![CDATA[technologies]]></Name>
+<ShortName><![CDATA[technologies]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/technologies/developingofequipment]]></StringID>
+<catpath><![CDATA[Top/technologies/developingofequipment]]></catpath>
+<rules type="EMPTY">
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[developingofequipment]]></DisplayName>
+<Name><![CDATA[developingofequipment]]></Name>
+<ShortName><![CDATA[developingofequipment]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/science]]></StringID>
+<catpath><![CDATA[Top/science]]></catpath>
+<rules type="EMPTY">
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[science]]></DisplayName>
+<Name><![CDATA[science]]></Name>
+<ShortName><![CDATA[science]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/science/existeddrugs]]></StringID>
+<catpath><![CDATA[Top/science/existeddrugs]]></catpath>
+<rules type="EMPTY">
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[existeddrugs]]></DisplayName>
+<Name><![CDATA[existeddrugs]]></Name>
+<ShortName><![CDATA[existeddrugs]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/science/developingnewdrugs]]></StringID>
+<catpath><![CDATA[Top/science/developingnewdrugs]]></catpath>
+<rules type="EMPTY">
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[developingnewdrugs]]></DisplayName>
+<Name><![CDATA[developingnewdrugs]]></Name>
+<ShortName><![CDATA[developingnewdrugs]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/science/developingvaccine]]></StringID>
+<catpath><![CDATA[Top/science/developingvaccine]]></catpath>
+<rules type="EMPTY">
+</rules>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<DisplayName><![CDATA[developingvaccine]]></DisplayName>
+<Name><![CDATA[developingvaccine]]></Name>
+<ShortName><![CDATA[developingvaccine]]></ShortName>
+</Topic>
+</TeragramDirectoryStructureV3>

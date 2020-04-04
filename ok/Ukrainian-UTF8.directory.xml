@@ -349,12 +349,12 @@
 <StringID><![CDATA[Top/politics/healthcarepolicy]]></StringID>
 <catpath><![CDATA[Top/politics/healthcarepolicy]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR,(SENT,(OR,"уряд*",(AND,"кабінет*","міністрів@"),(AND,"орган*","влад*")),(OR,"постанов*","рішенн*"),"про",(OR,"ухвал*","запрова*","ввели@"),(OR,"карантин*","обмежен*",(AND,"заход*","протиді*")))))]]>
+<![CDATA[(OR,(OR,(ORDDIST_16,(OR,"ухвал*","*провадж*","ввели*","заклик*","ввести*","введуть","посил*","умови*"),(OR,"карантин*","обмеж*",(AND,"заход*","протиді*"),"обсерваці*","ізоляці*"))))]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 05, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Коронавірус]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Україна]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[healthcarepolicy]]></DisplayName>
 <Name><![CDATA[healthcarepolicy]]></Name>
@@ -363,11 +363,13 @@
 <Topic>
 <StringID><![CDATA[Top/politics/healthcarepolicy/education]]></StringID>
 <catpath><![CDATA[Top/politics/healthcarepolicy/education]]></catpath>
-<rules type="EMPTY">
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,(ORDDIST_15,(OR,"закрит*","припин*","*зупин*"),(OR,"школ*","шкіл*","університет*","навчання","ВНЗ",(AND,"навчальн*","заклад*")))))]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 05, 2014]]></CreationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\???????????\]]></TestPath>
+<ModificationDate><![CDATA[April 05, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Україна]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[education]]></DisplayName>
 <Name><![CDATA[education]]></Name>
@@ -376,11 +378,13 @@
 <Topic>
 <StringID><![CDATA[Top/politics/healthcarepolicy/entertaiment]]></StringID>
 <catpath><![CDATA[Top/politics/healthcarepolicy/entertaiment]]></catpath>
-<rules type="EMPTY">
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,(SENT,(OR,"закрит*","припин*","*зупин*","скасов*","скасув*","заборон*"),(OR,"ТРЦ","*театр*","ресторан*","кафе",(AND,"масов*",(OR,"захід*","заход*")),"фестивал*",(AND,"громадськ*","місц*"),"стадіон*",(AND,(OR,"торгівельн*","спортивн*"),"майданчик*")))))]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 05, 2014]]></CreationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\???????????\]]></TestPath>
+<ModificationDate><![CDATA[April 05, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\???????]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[entertaiment]]></DisplayName>
 <Name><![CDATA[entertaiment]]></Name>
@@ -393,7 +397,7 @@
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 05, 2014]]></CreationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\???????????\]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\???????]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[transport]]></DisplayName>
 <Name><![CDATA[transport]]></Name>
@@ -405,7 +409,7 @@
 <rules type="EMPTY">
 </rules>
 <CreationDate><![CDATA[April 05, 2014]]></CreationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\???????????\]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\???????\]]></TestPath>
 <DisplayName><![CDATA[safetysteps]]></DisplayName>
 <Name><![CDATA[safetysteps]]></Name>
 <ShortName><![CDATA[safetysteps]]></ShortName>

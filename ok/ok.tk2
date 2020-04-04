@@ -8,5 +8,4 @@ rule_cat=Ukrainian-UTF8.rb.cat
 stat_cat=Ukrainian-UTF8.st.cat
 active_cat=rule
 never_expand
-should_rebuild_categories
 should_rebuild_stat_cat

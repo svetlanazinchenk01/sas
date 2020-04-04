@@ -424,7 +424,7 @@
 <StringID><![CDATA[Top/politics/illpoliticians]]></StringID>
 <catpath><![CDATA[Top/politics/illpoliticians]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR,(AND,_tmac:"@Top/health/illness",(OR,"*прем`єр*","*міністр","президент","депутат","урядовець","король"))))]]>
+<![CDATA[(OR,(OR,(SENT,_tmac:"@Top/health/illness",(OR,"*прем`єр*","*міністр","президент","депутат","урядовець","король"),_tmac:"@Top/coronavirus")))]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
@@ -434,21 +434,6 @@
 <DisplayName><![CDATA[illpoliticians]]></DisplayName>
 <Name><![CDATA[illpoliticians]]></Name>
 <ShortName><![CDATA[illpoliticians]]></ShortName>
-</Topic>
-<Topic>
-<StringID><![CDATA[Top/politics/government_changes]]></StringID>
-<catpath><![CDATA[Top/politics/government_changes]]></catpath>
-<rules type="BOOLEAN">
-<![CDATA[(OR,(OR,(SENT,(OR),(OR))))]]>
-</rules>
-<ratio><![CDATA[10]]></ratio>
-<CreationDate><![CDATA[April 05, 2014]]></CreationDate>
-<ModificationDate><![CDATA[April 05, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Політика\government_changes]]></TestPath>
-<RuleStatus><![CDATA[1]]></RuleStatus>
-<DisplayName><![CDATA[government_changes]]></DisplayName>
-<Name><![CDATA[government_changes]]></Name>
-<ShortName><![CDATA[government_changes]]></ShortName>
 </Topic>
 <Topic>
 <StringID><![CDATA[Top/technologies]]></StringID>

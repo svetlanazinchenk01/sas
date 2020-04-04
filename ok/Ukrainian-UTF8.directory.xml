@@ -10,6 +10,8 @@
 <![CDATA[
  
  
+ 
+ 
 ]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
@@ -22,13 +24,11 @@
 <StringID><![CDATA[Top/coronavirus]]></StringID>
 <catpath><![CDATA[Top/coronavirus]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR,"коронавірус*")) 
- 
-]]>
+<![CDATA[(OR,(OR,"коронавірус*","вірус*","інфекці*","пандемі*","захворювання*"))]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
-<ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
+<ModificationDate><![CDATA[April 05, 2014]]></ModificationDate>
 <TestPath><![CDATA[C:\Tk240\bateiko\bbc\Коронавірус]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[coronavirus]]></DisplayName>
@@ -36,10 +36,12 @@
 <ShortName><![CDATA[coronavirus]]></ShortName>
 </Topic>
 <Topic>
-<StringID><![CDATA[Top/economics]]></StringID>
-<catpath><![CDATA[Top/economics]]></catpath>
+<StringID><![CDATA[Top/economy]]></StringID>
+<catpath><![CDATA[Top/economy]]></catpath>
 <rules type="BOOLEAN">
 <![CDATA[(OR,(OR,"економіка@")) 
+ 
+ 
  
 ]]>
 </rules>
@@ -47,75 +49,76 @@
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
 <RuleStatus><![CDATA[1]]></RuleStatus>
-<DisplayName><![CDATA[economics]]></DisplayName>
-<Name><![CDATA[economics]]></Name>
-<ShortName><![CDATA[economics]]></ShortName>
+<DisplayName><![CDATA[economy]]></DisplayName>
+<Name><![CDATA[economy]]></Name>
+<ShortName><![CDATA[economy]]></ShortName>
 </Topic>
 <Topic>
-<StringID><![CDATA[Top/economics/crisis]]></StringID>
-<catpath><![CDATA[Top/economics/crisis]]></catpath>
-<rules type="LINGUISTICS">
-<![CDATA[
- 
-]]>
+<StringID><![CDATA[Top/economy/crisis]]></StringID>
+<catpath><![CDATA[Top/economy/crisis]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,"криз*",(SENT,(OR,"індекс*","бірж*","ринок*","ринки*","акці*","ринках*","курс*","попит*","ВВП*","економік*","економіц*","ОВДП"),(OR,"впав*","впали*","впадуть*","знизят*","зниж*","падають*","падін*","*повільн*","зменш*","обвал*")),"рецесі*",(SENT,(OR,"зупин*","втрат*","цін*"),(OR,"зростання*","зазнали*","зазнають*","зросли*","зрост*")),"девальваці*","дефолт*"))]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 05, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Економіка]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[crisis]]></DisplayName>
 <Name><![CDATA[crisis]]></Name>
 <ShortName><![CDATA[crisis]]></ShortName>
 </Topic>
 <Topic>
-<StringID><![CDATA[Top/economics/coronacrisis]]></StringID>
-<catpath><![CDATA[Top/economics/coronacrisis]]></catpath>
-<rules type="LINGUISTICS">
-<![CDATA[
- 
-]]>
+<StringID><![CDATA[Top/economy/coronacrisis]]></StringID>
+<catpath><![CDATA[Top/economy/coronacrisis]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,(SENT,_tmac:"@Top/coronavirus",_tmac:"@Top/economy/crisis")))]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 05, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Економіка]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[coronacrisis]]></DisplayName>
 <Name><![CDATA[coronacrisis]]></Name>
 <ShortName><![CDATA[coronacrisis]]></ShortName>
 </Topic>
 <Topic>
-<StringID><![CDATA[Top/economics/coronajobloss]]></StringID>
-<catpath><![CDATA[Top/economics/coronajobloss]]></catpath>
-<rules type="LINGUISTICS">
-<![CDATA[
- 
-]]>
+<StringID><![CDATA[Top/economy/coronajobloss]]></StringID>
+<catpath><![CDATA[Top/economy/coronajobloss]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,(DIST_8,(ORDDIST_3,(OR,"внаслідок","через"),(OR,"пандем*","інфекц*","карантин*",_tmac:"@Top/coronavirus")),(OR,"втрат*","зазна*","залиш*"),(OR,"робот*","збитк*","дохід*",(AND,"робоч*","місц*")))))]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 05, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Економіка]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[coronajobloss]]></DisplayName>
 <Name><![CDATA[coronajobloss]]></Name>
 <ShortName><![CDATA[coronajobloss]]></ShortName>
 </Topic>
 <Topic>
-<StringID><![CDATA[Top/economics/coronabusiness]]></StringID>
-<catpath><![CDATA[Top/economics/coronabusiness]]></catpath>
-<rules type="LINGUISTICS">
-<![CDATA[
- 
-]]>
+<StringID><![CDATA[Top/economy/coronabusiness]]></StringID>
+<catpath><![CDATA[Top/economy/coronabusiness]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,(SENT,(OR,"бізнес*","компані*","підприємств*","виробник*","виробниц*"),(OR,"*пропону*"),(OR,"допомог*"))))]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 05, 2014]]></ModificationDate>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[coronabusiness]]></DisplayName>
 <Name><![CDATA[coronabusiness]]></Name>
 <ShortName><![CDATA[coronabusiness]]></ShortName>
 </Topic>
 <Topic>
-<StringID><![CDATA[Top/economics/coronaimport]]></StringID>
-<catpath><![CDATA[Top/economics/coronaimport]]></catpath>
+<StringID><![CDATA[Top/economy/coronaimport]]></StringID>
+<catpath><![CDATA[Top/economy/coronaimport]]></catpath>
 <rules type="LINGUISTICS">
 <![CDATA[
+ 
+ 
  
 ]]>
 </rules>
@@ -132,6 +135,8 @@
 <rules type="BOOLEAN">
 <![CDATA[(OR,(OR,"здоров*")) 
  
+ 
+ 
 ]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
@@ -146,10 +151,12 @@
 <Topic>
 <StringID><![CDATA[Top/health/dissemination]]></StringID>
 <catpath><![CDATA[Top/health/dissemination]]></catpath>
-<rules type="EMPTY">
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,(DIST_3,(OR,"хворі*","захвор*","хвори*","хвора"),(OR,"випад*")),"захворіти","захворю*",(DIST_3,(OR,"можуть@"),(OR,"підхоп*"))))]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 05, 2014]]></ModificationDate>
 <TestPath><![CDATA[C:\Tk240\bateiko\bbc\Здоров'я\dissemination]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[dissemination]]></DisplayName>
@@ -159,10 +166,12 @@
 <Topic>
 <StringID><![CDATA[Top/health/illness]]></StringID>
 <catpath><![CDATA[Top/health/illness]]></catpath>
-<rules type="EMPTY">
+<rules type="BOOLEAN">
+<![CDATA[(OR,(NOTINDIST_3,(OR,"хворі*","захвор*","хвори*","хвора"),(OR,"випад*")))]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 05, 2014]]></ModificationDate>
 <TestPath><![CDATA[C:\Tk240\bateiko\bbc\Здоров'я\illness]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[illness]]></DisplayName>
@@ -172,10 +181,12 @@
 <Topic>
 <StringID><![CDATA[Top/health/recover]]></StringID>
 <catpath><![CDATA[Top/health/recover]]></catpath>
-<rules type="EMPTY">
+<rules type="BOOLEAN">
+<![CDATA[(OR,(NOTINDIST_3,"одуж*","не"))]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 05, 2014]]></ModificationDate>
 <TestPath><![CDATA[C:\Tk240\bateiko\bbc\Здоров'я\recover]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[recover]]></DisplayName>
@@ -183,32 +194,12 @@
 <ShortName><![CDATA[recover]]></ShortName>
 </Topic>
 <Topic>
-<StringID><![CDATA[Top/health/death]]></StringID>
-<catpath><![CDATA[Top/health/death]]></catpath>
-<rules type="EMPTY">
-</rules>
-<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Здоров'я/death]]></TestPath>
-<DisplayName><![CDATA[death]]></DisplayName>
-<Name><![CDATA[death]]></Name>
-<ShortName><![CDATA[death]]></ShortName>
-</Topic>
-<Topic>
-<StringID><![CDATA[Top/health/potentialdeath]]></StringID>
-<catpath><![CDATA[Top/health/potentialdeath]]></catpath>
-<rules type="EMPTY">
-</rules>
-<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Здоров'я/potentialdeath]]></TestPath>
-<DisplayName><![CDATA[potentialdeath]]></DisplayName>
-<Name><![CDATA[potentialdeath]]></Name>
-<ShortName><![CDATA[potentialdeath]]></ShortName>
-</Topic>
-<Topic>
 <StringID><![CDATA[Top/society]]></StringID>
 <catpath><![CDATA[Top/society]]></catpath>
 <rules type="BOOLEAN">
 <![CDATA[(OR,(OR,"суспільство@","громад*")) 
+ 
+ 
  
 ]]>
 </rules>
@@ -222,95 +213,76 @@
 <ShortName><![CDATA[society]]></ShortName>
 </Topic>
 <Topic>
-<StringID><![CDATA[Top/society/education]]></StringID>
-<catpath><![CDATA[Top/society/education]]></catpath>
-<rules type="LINGUISTICS">
-<![CDATA[
- 
-]]>
-</rules>
-<ratio><![CDATA[10]]></ratio>
-<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Суспільство\education]]></TestPath>
-<RuleStatus><![CDATA[1]]></RuleStatus>
-<DisplayName><![CDATA[education]]></DisplayName>
-<Name><![CDATA[education]]></Name>
-<ShortName><![CDATA[education]]></ShortName>
-</Topic>
-<Topic>
-<StringID><![CDATA[Top/society/entertaiment]]></StringID>
-<catpath><![CDATA[Top/society/entertaiment]]></catpath>
-<rules type="LINGUISTICS">
-<![CDATA[
- 
-]]>
-</rules>
-<ratio><![CDATA[10]]></ratio>
-<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Суспільство\entertaiment]]></TestPath>
-<RuleStatus><![CDATA[1]]></RuleStatus>
-<DisplayName><![CDATA[entertaiment]]></DisplayName>
-<Name><![CDATA[entertaiment]]></Name>
-<ShortName><![CDATA[entertaiment]]></ShortName>
-</Topic>
-<Topic>
-<StringID><![CDATA[Top/society/transport]]></StringID>
-<catpath><![CDATA[Top/society/transport]]></catpath>
-<rules type="LINGUISTICS">
-<![CDATA[
- 
-]]>
-</rules>
-<ratio><![CDATA[10]]></ratio>
-<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Суспільство\transport]]></TestPath>
-<RuleStatus><![CDATA[1]]></RuleStatus>
-<DisplayName><![CDATA[transport]]></DisplayName>
-<Name><![CDATA[transport]]></Name>
-<ShortName><![CDATA[transport]]></ShortName>
-</Topic>
-<Topic>
-<StringID><![CDATA[Top/society/tourism]]></StringID>
-<catpath><![CDATA[Top/society/tourism]]></catpath>
+<StringID><![CDATA[Top/society/potentialdeathhisteria]]></StringID>
+<catpath><![CDATA[Top/society/potentialdeathhisteria]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR,"переміщ*","подорож*","перевез*"))]]>
+<![CDATA[(OR,(MINOC_3,"помруть",(DIST_11,(OR,"мож*","очік*"),(OR,"смерть@","смертність@","померти@")))) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Україна]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Суспільство\histeria]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
-<DisplayName><![CDATA[tourism]]></DisplayName>
-<Name><![CDATA[tourism]]></Name>
-<ShortName><![CDATA[tourism]]></ShortName>
-</Topic>
-<Topic>
-<StringID><![CDATA[Top/society/histeria]]></StringID>
-<catpath><![CDATA[Top/society/histeria]]></catpath>
-<rules type="EMPTY">
-</rules>
-<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Суспільство/histeria]]></TestPath>
-<DisplayName><![CDATA[histeria]]></DisplayName>
-<Name><![CDATA[histeria]]></Name>
-<ShortName><![CDATA[histeria]]></ShortName>
+<DisplayName><![CDATA[potentialdeathhisteria]]></DisplayName>
+<Name><![CDATA[potentialdeathhisteria]]></Name>
+<ShortName><![CDATA[potentialdeathhisteria]]></ShortName>
 </Topic>
 <Topic>
 <StringID><![CDATA[Top/society/depression]]></StringID>
 <catpath><![CDATA[Top/society/depression]]></catpath>
-<rules type="EMPTY">
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+]]>
 </rules>
+<ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Суспільство/depression]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Суспільство\depression]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[depression]]></DisplayName>
 <Name><![CDATA[depression]]></Name>
 <ShortName><![CDATA[depression]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/society/death]]></StringID>
+<catpath><![CDATA[Top/society/death]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,"смерть@")) 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Здоров'я\death]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[death]]></DisplayName>
+<Name><![CDATA[death]]></Name>
+<ShortName><![CDATA[death]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/society/potentialdeath]]></StringID>
+<catpath><![CDATA[Top/society/potentialdeath]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,"помруть",(DIST_11,(OR,"мож*","очік*"),(OR,"смерть@","смертність@","померти@")))) 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Здоров'я\potentialdeath]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[potentialdeath]]></DisplayName>
+<Name><![CDATA[potentialdeath]]></Name>
+<ShortName><![CDATA[potentialdeath]]></ShortName>
 </Topic>
 <Topic>
 <StringID><![CDATA[Top/sport]]></StringID>
 <catpath><![CDATA[Top/sport]]></catpath>
 <rules type="BOOLEAN">
 <![CDATA[(OR,(OR,"спорт*")) 
+ 
+ 
  
 ]]>
 </rules>
@@ -326,10 +298,13 @@
 <Topic>
 <StringID><![CDATA[Top/sport/events]]></StringID>
 <catpath><![CDATA[Top/sport/events]]></catpath>
-<rules type="EMPTY">
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR)) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
 <TestPath><![CDATA[C:\Tk240\bateiko\bbc\Спорт\events]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[events]]></DisplayName>
@@ -339,7 +314,10 @@
 <Topic>
 <StringID><![CDATA[Top/sport/coronacanceledevents]]></StringID>
 <catpath><![CDATA[Top/sport/coronacanceledevents]]></catpath>
-<rules type="EMPTY">
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
@@ -355,6 +333,8 @@
 <rules type="BOOLEAN">
 <![CDATA[(OR,(OR,"політи*")) 
  
+ 
+ 
 ]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
@@ -367,23 +347,32 @@
 <ShortName><![CDATA[politics]]></ShortName>
 </Topic>
 <Topic>
-<StringID><![CDATA[Top/politics/newlaws]]></StringID>
-<catpath><![CDATA[Top/politics/newlaws]]></catpath>
-<rules type="EMPTY">
+<StringID><![CDATA[Top/politics/healthcarepolicy]]></StringID>
+<catpath><![CDATA[Top/politics/healthcarepolicy]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+]]>
 </rules>
+<ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Політика/newlaws]]></TestPath>
-<DisplayName><![CDATA[newlaws]]></DisplayName>
-<Name><![CDATA[newlaws]]></Name>
-<ShortName><![CDATA[newlaws]]></ShortName>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Політика\newlaws]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[healthcarepolicy]]></DisplayName>
+<Name><![CDATA[healthcarepolicy]]></Name>
+<ShortName><![CDATA[healthcarepolicy]]></ShortName>
 </Topic>
 <Topic>
 <StringID><![CDATA[Top/politics/illpoliticians]]></StringID>
 <catpath><![CDATA[Top/politics/illpoliticians]]></catpath>
-<rules type="EMPTY">
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+]]>
 </rules>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <TestPath><![CDATA[C:\Tk240\bateiko\bbc\Політика/illpoliticians]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[illpoliticians]]></DisplayName>
 <Name><![CDATA[illpoliticians]]></Name>
 <ShortName><![CDATA[illpoliticians]]></ShortName>
@@ -393,6 +382,8 @@
 <catpath><![CDATA[Top/technologies]]></catpath>
 <rules type="LINGUISTICS">
 <![CDATA[
+ 
+ 
  
 ]]>
 </rules>
@@ -406,7 +397,10 @@
 <Topic>
 <StringID><![CDATA[Top/technologies/developingofequipment]]></StringID>
 <catpath><![CDATA[Top/technologies/developingofequipment]]></catpath>
-<rules type="EMPTY">
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
@@ -418,7 +412,10 @@
 <Topic>
 <StringID><![CDATA[Top/science]]></StringID>
 <catpath><![CDATA[Top/science]]></catpath>
-<rules type="EMPTY">
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
@@ -430,7 +427,10 @@
 <Topic>
 <StringID><![CDATA[Top/science/existeddrugs]]></StringID>
 <catpath><![CDATA[Top/science/existeddrugs]]></catpath>
-<rules type="EMPTY">
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
@@ -442,7 +442,10 @@
 <Topic>
 <StringID><![CDATA[Top/science/developingnewdrugs]]></StringID>
 <catpath><![CDATA[Top/science/developingnewdrugs]]></catpath>
-<rules type="EMPTY">
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
@@ -454,11 +457,49 @@
 <Topic>
 <StringID><![CDATA[Top/science/developingvaccine]]></StringID>
 <catpath><![CDATA[Top/science/developingvaccine]]></catpath>
-<rules type="EMPTY">
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+]]>
 </rules>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[developingvaccine]]></DisplayName>
 <Name><![CDATA[developingvaccine]]></Name>
 <ShortName><![CDATA[developingvaccine]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/education]]></StringID>
+<catpath><![CDATA[Top/education]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,"освіт*","школа@","ВНЗ@")) 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Суспільство]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[education]]></DisplayName>
+<Name><![CDATA[education]]></Name>
+<ShortName><![CDATA[education]]></ShortName>
+</Topic>
+<Topic>
+<StringID><![CDATA[Top/entertaiment]]></StringID>
+<catpath><![CDATA[Top/entertaiment]]></catpath>
+<rules type="LINGUISTICS">
+<![CDATA[
+ 
+ 
+ 
+]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Суспільство\entertaiment]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[entertaiment]]></DisplayName>
+<Name><![CDATA[entertaiment]]></Name>
+<ShortName><![CDATA[entertaiment]]></ShortName>
 </Topic>
 </TeragramDirectoryStructureV3>

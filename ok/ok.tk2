@@ -3,10 +3,12 @@ language=Russian-UTF8
 is_utf_8
 language=Ukrainian-UTF8
 is_utf_8
+paragraph_fpat= \n,\r\n,</p>
 categorizer=Ukrainian-UTF8.directory.xml
 rule_cat=Ukrainian-UTF8.rb.cat
 stat_cat=Ukrainian-UTF8.st.cat
 active_cat=rule
-never_expand
+export_utf8_mco
+expand_at_compile
 should_rebuild_categories
 should_rebuild_stat_cat

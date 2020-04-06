@@ -781,4 +781,195 @@ Mon Apr 07 18:27:13 2014, Unknown user: Saved language project.
 Mon Apr 07 18:27:19 2014, Unknown user: Successfully built rule-based categorizer.
 Mon Apr 07 18:27:19 2014, Unknown user: Successfully exported utf8 mco file.
 Mon Apr 07 18:27:19 2014, Unknown user: Set active categorizer to rule-based
-Mon Apr 07 18:27:24 2014, Unknown user: Tested docum
+Mon Apr 07 18:27:24 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\bbc_41.txt against category Top/politics/healthcarepolicy/entertaiment
+Mon Apr 07 18:27:28 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\zn_136.txt against category Top/politics/healthcarepolicy/entertaiment
+Mon Apr 07 18:27:34 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\zn_136.txt against category Top/politics/healthcarepolicy/entertaiment
+Mon Apr 07 18:27:40 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\zn_140.txt against category Top/politics/healthcarepolicy/entertaiment
+Mon Apr 07 18:27:44 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\zn_169.txt against category Top/politics/healthcarepolicy/entertaiment
+Mon Apr 07 18:27:53 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\zn_172.txt against category Top/politics/healthcarepolicy/entertaiment
+Mon Apr 07 18:27:57 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\zn_175.txt against category Top/politics/healthcarepolicy/entertaiment
+Mon Apr 07 18:27:59 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\zn_184.txt against category Top/politics/healthcarepolicy/entertaiment
+Mon Apr 07 18:28:39 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 18:28:39 2014, Unknown user: Saved language project.
+Mon Apr 07 18:28:49 2014, Unknown user: Successfully built rule-based categorizer.
+Mon Apr 07 18:28:49 2014, Unknown user: Successfully exported utf8 mco file.
+Mon Apr 07 18:28:49 2014, Unknown user: Set active categorizer to rule-based
+Mon Apr 07 18:28:52 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\zn_182.txt against category Top/politics/healthcarepolicy/entertaiment
+Mon Apr 07 18:28:55 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\zn_211.txt against category Top/politics/healthcarepolicy/entertaiment
+Mon Apr 07 18:28:59 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\zn_24.txt against category Top/politics/healthcarepolicy/entertaiment
+Mon Apr 07 18:29:02 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\zn_93.txt against category Top/politics/healthcarepolicy/entertaiment
+Mon Apr 07 18:29:05 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\zn_30.txt against category Top/politics/healthcarepolicy/entertaiment
+Mon Apr 07 18:29:09 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\zn_178.txt against category Top/politics/healthcarepolicy/entertaiment
+Mon Apr 07 18:29:12 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\zn_169.txt against category Top/politics/healthcarepolicy/entertaiment
+Mon Apr 07 18:29:15 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\bbc_52.txt against category Top/politics/healthcarepolicy/entertaiment
+Mon Apr 07 18:29:23 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\bbc_41.txt against category Top/politics/healthcarepolicy/entertaiment
+Mon Apr 07 18:29:27 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\bbc_38.txt against category Top/politics/healthcarepolicy/entertaiment
+Mon Apr 07 18:29:31 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\zn_182.txt against category Top/politics/healthcarepolicy/entertaiment
+Mon Apr 07 18:30:29 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\politics\zn_81.txt against category Top/politics/illpoliticians
+Mon Apr 07 18:49:06 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 18:49:06 2014, Unknown user: Saved language project.
+Mon Apr 07 18:49:06 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 18:49:06 2014, Unknown user: Saved language project.
+Mon Apr 07 18:54:38 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 18:54:38 2014, Unknown user: Saved language project.
+Mon Apr 07 19:22:15 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:22:15 2014, Unknown user: Saved language project.
+Mon Apr 07 19:22:32 2014, Unknown user: Successfully built rule-based categorizer.
+Mon Apr 07 19:22:32 2014, Unknown user: Successfully exported utf8 mco file.
+Mon Apr 07 19:22:32 2014, Unknown user: Set active categorizer to rule-based
+Mon Apr 07 19:22:53 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_267.txt against category Top/science/developingnewdrugs
+Mon Apr 07 19:23:36 2014, Unknown user: Successfully built rule-based categorizer.
+Mon Apr 07 19:23:36 2014, Unknown user: Successfully exported utf8 mco file.
+Mon Apr 07 19:23:36 2014, Unknown user: Set active categorizer to rule-based
+Mon Apr 07 19:24:12 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:24:12 2014, Unknown user: Saved language project.
+Mon Apr 07 19:35:07 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:35:07 2014, Unknown user: Saved language project.
+Mon Apr 07 19:35:22 2014, Unknown user: Successfully built rule-based categorizer.
+Mon Apr 07 19:35:22 2014, Unknown user: Successfully exported utf8 mco file.
+Mon Apr 07 19:35:22 2014, Unknown user: Set active categorizer to rule-based
+Mon Apr 07 19:35:27 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\health\bbc_7.txt against category Top/science/developingvaccine
+Mon Apr 07 19:36:12 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:36:12 2014, Unknown user: Saved language project.
+Mon Apr 07 19:36:17 2014, Unknown user: Successfully built rule-based categorizer.
+Mon Apr 07 19:36:17 2014, Unknown user: Successfully exported utf8 mco file.
+Mon Apr 07 19:36:17 2014, Unknown user: Set active categorizer to rule-based
+Mon Apr 07 19:36:19 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\health\bbc_7.txt against category Top/science/developingvaccine
+Mon Apr 07 19:36:46 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:36:46 2014, Unknown user: Saved language project.
+Mon Apr 07 19:36:53 2014, Unknown user: Successfully built rule-based categorizer.
+Mon Apr 07 19:36:53 2014, Unknown user: Successfully exported utf8 mco file.
+Mon Apr 07 19:36:53 2014, Unknown user: Set active categorizer to rule-based
+Mon Apr 07 19:36:55 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\health\bbc_7.txt against category Top/science/developingvaccine
+Mon Apr 07 19:38:21 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:38:21 2014, Unknown user: Saved language project.
+Mon Apr 07 19:38:26 2014, Unknown user: Successfully built rule-based categorizer.
+Mon Apr 07 19:38:26 2014, Unknown user: Successfully exported utf8 mco file.
+Mon Apr 07 19:38:26 2014, Unknown user: Set active categorizer to rule-based
+Mon Apr 07 19:38:45 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\health\bbc_1.txt against category Top/science/developingvaccine
+Mon Apr 07 19:38:54 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\health\bbc_7.txt against category Top/science/developingvaccine
+Mon Apr 07 19:39:18 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_279.txt against category Top/science/developingvaccine
+Mon Apr 07 19:39:50 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:39:50 2014, Unknown user: Saved language project.
+Mon Apr 07 19:39:58 2014, Unknown user: Successfully built rule-based categorizer.
+Mon Apr 07 19:39:58 2014, Unknown user: Successfully exported utf8 mco file.
+Mon Apr 07 19:39:58 2014, Unknown user: Set active categorizer to rule-based
+Mon Apr 07 19:40:04 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_279.txt against category Top/science/developingvaccine
+Mon Apr 07 19:41:23 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:41:23 2014, Unknown user: Saved language project.
+Mon Apr 07 19:41:23 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:41:23 2014, Unknown user: Saved language project.
+Mon Apr 07 19:41:24 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:41:24 2014, Unknown user: Saved language project.
+Mon Apr 07 19:41:30 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:41:30 2014, Unknown user: Saved language project.
+Mon Apr 07 19:41:31 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:41:31 2014, Unknown user: Saved language project.
+Mon Apr 07 19:41:33 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:41:33 2014, Unknown user: Saved language project.
+Mon Apr 07 19:41:34 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:41:34 2014, Unknown user: Saved language project.
+Mon Apr 07 19:41:35 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:41:35 2014, Unknown user: Saved language project.
+Mon Apr 07 19:41:35 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:41:35 2014, Unknown user: Saved language project.
+Mon Apr 07 19:41:36 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:41:36 2014, Unknown user: Saved language project.
+Mon Apr 07 19:41:37 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:41:37 2014, Unknown user: Saved language project.
+Mon Apr 07 19:41:38 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:41:38 2014, Unknown user: Saved language project.
+Mon Apr 07 19:43:03 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:43:03 2014, Unknown user: Saved language project.
+Mon Apr 07 19:43:03 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:43:03 2014, Unknown user: Saved language project.
+Mon Apr 07 19:43:03 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:43:03 2014, Unknown user: Saved language project.
+Mon Apr 07 19:43:05 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:43:05 2014, Unknown user: Saved language project.
+Mon Apr 07 19:43:11 2014, Unknown user: Successfully built rule-based categorizer.
+Mon Apr 07 19:43:11 2014, Unknown user: Successfully exported utf8 mco file.
+Mon Apr 07 19:43:11 2014, Unknown user: Set active categorizer to rule-based
+Mon Apr 07 19:43:13 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_281.txt against category Top/science/developingvaccine
+Mon Apr 07 19:43:44 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_279.txt against category Top/science/developingvaccine
+Mon Apr 07 19:44:04 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_216.txt against category Top/science/developingvaccine
+Mon Apr 07 19:49:00 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:49:00 2014, Unknown user: Saved language project.
+Mon Apr 07 19:49:02 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:49:02 2014, Unknown user: Saved language project.
+Mon Apr 07 19:57:26 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:57:26 2014, Unknown user: Saved language project.
+Mon Apr 07 19:57:33 2014, Unknown user: Successfully built rule-based categorizer.
+Mon Apr 07 19:57:33 2014, Unknown user: Successfully exported utf8 mco file.
+Mon Apr 07 19:57:33 2014, Unknown user: Set active categorizer to rule-based
+Mon Apr 07 19:58:39 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 19:58:39 2014, Unknown user: Saved language project.
+Mon Apr 07 20:46:46 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 20:46:46 2014, Unknown user: Saved language project.
+Mon Apr 07 20:47:03 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 20:47:03 2014, Unknown user: Saved language project.
+Mon Apr 07 20:47:20 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 20:47:20 2014, Unknown user: Saved language project.
+Mon Apr 07 20:47:37 2014, Unknown user: Successfully built rule-based categorizer.
+Mon Apr 07 20:47:37 2014, Unknown user: Successfully exported utf8 mco file.
+Mon Apr 07 20:47:37 2014, Unknown user: Set active categorizer to rule-based
+Mon Apr 07 20:47:40 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_267.txt against category Top/science/existeddrugs
+Mon Apr 07 20:50:33 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 20:50:33 2014, Unknown user: Saved language project.
+Mon Apr 07 20:50:39 2014, Unknown user: Successfully built rule-based categorizer.
+Mon Apr 07 20:50:39 2014, Unknown user: Successfully exported utf8 mco file.
+Mon Apr 07 20:50:39 2014, Unknown user: Set active categorizer to rule-based
+Mon Apr 07 20:50:42 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_267.txt against category Top/science/existeddrugs
+Mon Apr 07 20:51:36 2014, Unknown user: Successfully built rule-based categorizer.
+Mon Apr 07 20:51:36 2014, Unknown user: Successfully exported utf8 mco file.
+Mon Apr 07 20:51:36 2014, Unknown user: Set active categorizer to rule-based
+Mon Apr 07 20:52:33 2014, Unknown user: Created subcategory producthisteria as child of society
+Mon Apr 07 20:52:38 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 20:52:38 2014, Unknown user: Saved language project.
+Mon Apr 07 20:52:38 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 20:52:38 2014, Unknown user: Saved language project.
+Mon Apr 07 20:52:39 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 20:52:39 2014, Unknown user: Saved language project.
+Mon Apr 07 21:00:32 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 21:00:32 2014, Unknown user: Saved language project.
+Mon Apr 07 21:00:33 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 21:00:33 2014, Unknown user: Saved language project.
+Mon Apr 07 21:06:06 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 21:06:06 2014, Unknown user: Saved language project.
+Mon Apr 07 21:06:30 2014, Unknown user: Successfully built rule-based categorizer.
+Mon Apr 07 21:06:30 2014, Unknown user: Successfully exported utf8 mco file.
+Mon Apr 07 21:06:30 2014, Unknown user: Set active categorizer to rule-based
+Mon Apr 07 21:07:20 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\technologies\bbc_205.txt against category Top/technologies/developingofequipment
+Mon Apr 07 21:08:22 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 21:08:22 2014, Unknown user: Saved language project.
+Mon Apr 07 21:13:27 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 21:13:27 2014, Unknown user: Saved language project.
+Mon Apr 07 21:17:49 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 21:17:49 2014, Unknown user: Saved language project.
+Mon Apr 07 21:19:55 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 21:19:55 2014, Unknown user: Saved language project.
+Mon Apr 07 21:20:40 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 21:20:40 2014, Unknown user: Saved language project.
+Mon Apr 07 21:20:58 2014, Unknown user: Successfully built rule-based categorizer.
+Mon Apr 07 21:20:58 2014, Unknown user: Successfully exported utf8 mco file.
+Mon Apr 07 21:20:58 2014, Unknown user: Set active categorizer to rule-based
+Mon Apr 07 21:21:01 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_229.txt against category Top/society/producthisteria
+Mon Apr 07 21:21:26 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 21:21:26 2014, Unknown user: Saved language project.
+Mon Apr 07 21:21:42 2014, Unknown user: Successfully built rule-based categorizer.
+Mon Apr 07 21:21:42 2014, Unknown user: Successfully exported utf8 mco file.
+Mon Apr 07 21:21:42 2014, Unknown user: Set active categorizer to rule-based
+Mon Apr 07 21:21:45 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\health\bbc_164.txt against category Top/society/producthisteria
+Mon Apr 07 21:22:38 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 21:22:38 2014, Unknown user: Saved language project.
+Mon Apr 07 21:22:43 2014, Unknown user: Successfully built rule-based categorizer.
+Mon Apr 07 21:22:43 2014, Unknown user: Successfully exported utf8 mco file.
+Mon Apr 07 21:22:43 2014, Unknown user: Set active categorizer to rule-based
+Mon Apr 07 21:22:45 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\health\bbc_164.txt against category Top/society/producthisteria
+Mon Apr 07 21:23:08 2014, Unknown user: Saved category taxonomy.
+Mon Apr 07 21:23:08 2014, Unknown user: Saved language project.
+Mon Apr 07 21:23:15 2014, Unknown user: Successfully built rule-based categorizer.
+Mon Apr 07 21:23:15 2014, Unknown user: Successfully exported utf8 mco file.
+Mon Apr 07 21:23:15 2014, Unknown user: Set active categorizer to rule-based
+Mon Apr 07 21:23:32 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\society\bbc_82.txt against category Top/society/producthisteria
+Mon Apr 07 21:23:58 2014,

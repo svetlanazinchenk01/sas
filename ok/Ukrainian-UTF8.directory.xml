@@ -22,6 +22,7 @@
 ]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[Top]]></DisplayName>
 <Name><![CDATA[Top]]></Name>
@@ -37,7 +38,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 07, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\coronavirus]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[coronavirus]]></DisplayName>
 <Name><![CDATA[coronavirus]]></Name>
@@ -60,7 +61,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Економіка]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[economy]]></DisplayName>
 <Name><![CDATA[economy]]></Name>
@@ -76,7 +77,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 07, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\economy]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[crisis]]></DisplayName>
 <Name><![CDATA[crisis]]></Name>
@@ -95,7 +96,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 05, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\economy]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[coronacrisis]]></DisplayName>
 <Name><![CDATA[coronacrisis]]></Name>
@@ -111,7 +112,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 07, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\economy]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[coronajobloss]]></DisplayName>
 <Name><![CDATA[coronajobloss]]></Name>
@@ -127,7 +128,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 07, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Ukraine]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[coronabusiness]]></DisplayName>
 <Name><![CDATA[coronabusiness]]></Name>
@@ -143,7 +144,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 07, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Ukraine]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[coronaimport]]></DisplayName>
 <Name><![CDATA[coronaimport]]></Name>
@@ -166,7 +167,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Здоров'я]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[health]]></DisplayName>
 <Name><![CDATA[health]]></Name>
@@ -182,7 +183,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 07, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\health]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[dissemination]]></DisplayName>
 <Name><![CDATA[dissemination]]></Name>
@@ -198,7 +199,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 07, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\health]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[illness]]></DisplayName>
 <Name><![CDATA[illness]]></Name>
@@ -214,7 +215,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 05, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\health]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[recover]]></DisplayName>
 <Name><![CDATA[recover]]></Name>
@@ -237,7 +238,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Суспільство]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[society]]></DisplayName>
 <Name><![CDATA[society]]></Name>
@@ -257,7 +258,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Суспільство\histeria]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[potentialdeathhisteria]]></DisplayName>
 <Name><![CDATA[potentialdeathhisteria]]></Name>
@@ -277,7 +278,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Суспільство]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[death]]></DisplayName>
 <Name><![CDATA[death]]></Name>
@@ -297,7 +298,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Україна]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[potentialdeath]]></DisplayName>
 <Name><![CDATA[potentialdeath]]></Name>
@@ -313,7 +314,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 07, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 07, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\coronavirus]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[producthisteria]]></DisplayName>
 <Name><![CDATA[producthisteria]]></Name>
@@ -328,7 +329,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 16, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 16, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\Texts\Health]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[familytroubles]]></DisplayName>
 <Name><![CDATA[familytroubles]]></Name>
@@ -351,7 +352,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Спорт]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[sport]]></DisplayName>
 <Name><![CDATA[sport]]></Name>
@@ -366,7 +367,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 16, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\coronavirus]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[events]]></DisplayName>
 <Name><![CDATA[events]]></Name>
@@ -381,7 +382,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 16, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\coronavirus]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[coronacanceledevents]]></DisplayName>
 <Name><![CDATA[coronacanceledevents]]></Name>
@@ -404,7 +405,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Політика]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[politics]]></DisplayName>
 <Name><![CDATA[politics]]></Name>
@@ -420,7 +421,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 07, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\politics]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[healthcarepolicy]]></DisplayName>
 <Name><![CDATA[healthcarepolicy]]></Name>
@@ -436,7 +437,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 05, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 05, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\politics]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[education]]></DisplayName>
 <Name><![CDATA[education]]></Name>
@@ -452,7 +453,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 05, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 07, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\politics]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[entertaiment]]></DisplayName>
 <Name><![CDATA[entertaiment]]></Name>
@@ -468,7 +469,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 05, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 07, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Ukraine]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[transport]]></DisplayName>
 <Name><![CDATA[transport]]></Name>
@@ -484,7 +485,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 05, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 07, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\politics]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[safetysteps]]></DisplayName>
 <Name><![CDATA[safetysteps]]></Name>
@@ -500,47 +501,22 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 07, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 07, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\politics]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[quarntine_strengthening]]></DisplayName>
 <Name><![CDATA[quarntine_strengthening]]></Name>
 <ShortName><![CDATA[quarntine_strengthening]]></ShortName>
 </Topic>
 <Topic>
-<StringID><![CDATA[Top/politics/illpoliticians]]></StringID>
-<catpath><![CDATA[Top/politics/illpoliticians]]></catpath>
-<rules type="BOOLEAN">
-<![CDATA[(OR,(OR,(SENT,_tmac:"@Top/health/illness",(OR,"*прем`єр*","*міністр","президент","депутат","урядовець","король"),_tmac:"@Top/coronavirus"))) 
- 
- 
- 
-]]>
-</rules>
-<ratio><![CDATA[10]]></ratio>
-<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
-<ModificationDate><![CDATA[April 05, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\health]]></TestPath>
-<RuleStatus><![CDATA[1]]></RuleStatus>
-<DisplayName><![CDATA[illpoliticians]]></DisplayName>
-<Name><![CDATA[illpoliticians]]></Name>
-<ShortName><![CDATA[illpoliticians]]></ShortName>
-</Topic>
-<Topic>
 <StringID><![CDATA[Top/technologies]]></StringID>
 <catpath><![CDATA[Top/technologies]]></catpath>
-<rules type="LINGUISTICS">
-<![CDATA[
- 
- 
- 
- 
- 
- 
- 
-]]>
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,"технології@"))]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 16, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[technologies]]></DisplayName>
 <Name><![CDATA[technologies]]></Name>
@@ -556,7 +532,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 07, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\technologies]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[developingofequipment]]></DisplayName>
 <Name><![CDATA[developingofequipment]]></Name>
@@ -565,17 +541,13 @@
 <Topic>
 <StringID><![CDATA[Top/science]]></StringID>
 <catpath><![CDATA[Top/science]]></catpath>
-<rules type="LINGUISTICS">
-<![CDATA[
- 
- 
- 
- 
- 
-]]>
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,"наука@","медицина@"))]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 16, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[science]]></DisplayName>
 <Name><![CDATA[science]]></Name>
@@ -591,7 +563,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 07, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\coronavirus]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[existeddrugs]]></DisplayName>
 <Name><![CDATA[existeddrugs]]></Name>
@@ -607,7 +579,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 07, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\health]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[developingnewdrugs]]></DisplayName>
 <Name><![CDATA[developingnewdrugs]]></Name>
@@ -623,7 +595,7 @@
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
 <ModificationDate><![CDATA[April 07, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\coronavirus]]></TestPath>
+<TestPath><![CDATA[C:\Tk240\bateiko\texts_all]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[developingvaccine]]></DisplayName>
 <Name><![CDATA[developingvaccine]]></Name>

@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Recall by Category</title>
+<script type="text/javascript">
+window.document.oncontextmenu=function(){return false}
+function convert(sValue, sDataType){
+ 						 switch(sDataType){
+ 						 case "int":
+ 						 return parseInt(sValue);
+ 						 case "float":
+ 						 return parseFloat(sValue);
+ 						 case "date":
+ 						 return new Date(Date.parse(sValue));
+ 						 default:
+ 						 return sValue.toString();
+ 						 }
+ 						 }
+ 						 
+ 						 function generateCompareTRs(iCol, iIdx, sDataType){
+ 						 return  function compareTRs(oTR1, oTR2){
+ 						 var node1 = oTR1.cells[iCol].firstChild;
+ 						 var node2 = oTR2.cells[iCol].firstChild;
+ 						 
+ 						 for(i=0;i<iIdx;++i){
+ 						 node1 = node1.nextSibling;
+ 						 node2 = node2.nextSibling;
+ 						 }
+ 						 
+ 						 var vValue1 = convert(node1.nodeValue, sDataType);
+ 						 var vValue2 = convert(node2.nodeValue, sDataType);
+ 						 
+ 						 if (vValue1 < vValue2) {
+ 						 return -1;
+ 						 } else if (vValue1 > vValue2) {
+ 						 return 1;
+ 						 } else {
+ 						 return 0;
+ 						 }
+ 						 };
+ 						 }
+ 						 
+ 						 function sortTable(sTableID, iCol, iIdx, sDataType) {
+ 						 var oTable = document.getElementById(sTableID);
+ 						 var oTBody = oTable.tBodies[0];
+ 						 var colDataRows = oTBody.rows;
+ 						 var aTRs = new Array;
+ 						 for (var i=0; i < colDataRows.length; i++) {
+ 						 aTRs[i] = colDataRows[i];
+ 						 aTRs[i].setAttribute("bgColor","white");
+ 						 }
+ 						 
+ 						 if (oTable.sortCol == iCol) {
+ 						 aTRs.reverse();
+ 						 } else {
+ 						 aTRs.sort(generateCompareTRs(iCol, iIdx, sDataType));
+ 						 }
+ 						 
+ 						 var oFragment = document.createDocumentFragment();
+ 						 for (var i=0; i < aTRs.length; i++) {
+ 						 if(i % 2 == 1){
+ 						 aTRs[i].setAttribute("bgColor","#E5E5E5");
+ 						 }
+ 						 oFragment.appendChild(aTRs[i]);
+ 						 }
+ 						 oTBody.appendChild(oFragment);
+ 						 oTable.sortCol = iCol;
+ 						 }
+</script>
+</head>
+<body onload="sortTable('tblSort', 0)">
+<table border="0" cellspacing="0">
+<td><a href="C:\TK240\bateiko\ok\graphical_temp\full_test_home.html">Home</a></td>
+<td width="20"></td>
+<td><a href="C:\TK240\bateiko\ok\graphical_temp\precision_by_category.html">Precision by Category</a></td>
+<td width="20"></td>
+<td><a href="C:\TK240\bateiko\ok\graphical_temp\number_of_pass_fail_doc.html">Number of Passing and Failing Documents</a></td>
+</table>
+<h1>Recall by Category</h1>
+<table border="0" cellspacing="0" id="tblSort">
+<thead>
+<tr>
+<th align="left" bgcolor="#D3D3D3" onclick="sortTable('tblSort', 0)" style="cursor:pointer">Category</th>
+<td width="20" bgcolor="#D3D3D3"></td>
+<th align="left" bgcolor="#D3D3D3" onclick="sortTable('tblSort', 2, 1, 'int')" style="cursor:pointer">Recall</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Top</td>
+<td></td>
+<td align="left"><label></label>0%</td>
+</tr>
+<tr>
+<td align="left">Top/coronavirus</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="96" height="16" />&nbsp;&nbsp;96%</td>
+</tr>
+<tr>
+<td align="left">Top/economy</td>
+<td></td>
+<td align="left"><label></label>0%</td>
+</tr>
+<tr>
+<td align="left">Top/economy/crisis</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="57" height="16" />&nbsp;&nbsp;57%</td>
+</tr>
+<tr>
+<td align="left">Top/economy/coronacrisis</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="37" height="16" />&nbsp;&nbsp;37%</td>
+</tr>
+<tr>
+<td align="left">Top/economy/coronajobloss</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="22" height="16" />&nbsp;&nbsp;22%</td>
+</tr>
+<tr>
+<td align="left">Top/economy/coronabusiness</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="2" height="16" />&nbsp;&nbsp;2%</td>
+</tr>
+<tr>
+<td align="left">Top/economy/coronaimport</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="10" height="16" />&nbsp;&nbsp;10%</td>
+</tr>
+<tr>
+<td align="left">Top/health</td>
+<td></td>
+<td align="left"><label></label>0%</td>
+</tr>
+<tr>
+<td align="left">Top/health/dissemination</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="13" height="16" />&nbsp;&nbsp;13%</td>
+</tr>
+<tr>
+<td align="left">Top/health/illness</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="22" height="16" />&nbsp;&nbsp;22%</td>
+</tr>
+<tr>
+<td align="left">Top/health/recover</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="22" height="16" />&nbsp;&nbsp;22%</td>
+</tr>
+<tr>
+<td align="left">Top/society</td>
+<td></td>
+<td align="left"><label></label>0%</td>
+</tr>
+<tr>
+<td align="left">Top/society/potentialdeathhisteria</td>
+<td></td>
+<td align="left"><label></label>0%</td>
+</tr>
+<tr>
+<td align="left">Top/society/death</td>
+<td></td>
+<td align="left"><label></label>0%</td>
+</tr>
+<tr>
+<td align="left">Top/society/potentialdeath</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="7" height="16" />&nbsp;&nbsp;7%</td>
+</tr>
+<tr>
+<td align="left">Top/society/producthisteria</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="1" height="16" />&nbsp;&nbsp;1%</td>
+</tr>
+<tr>
+<td align="left">Top/sport</td>
+<td></td>
+<td align="left"><label></label>0%</td>
+</tr>
+<tr>
+<td align="left">Top/sport/events</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="6" height="16" />&nbsp;&nbsp;6%</td>
+</tr>
+<tr>
+<td align="left">Top/sport/coronacanceledevents</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="3" height="16" />&nbsp;&nbsp;3%</td>
+</tr>
+<tr>
+<td align="left">Top/politics</td>
+<td></td>
+<td align="left"><label></label>0%</td>
+</tr>
+<tr>
+<td align="left">Top/politics/healthcarepolicy</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="4" height="16" />&nbsp;&nbsp;4%</td>
+</tr>
+<tr>
+<td align="left">Top/politics/healthcarepolicy/education</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="4" height="16" />&nbsp;&nbsp;4%</td>
+</tr>
+<tr>
+<td align="left">Top/politics/healthcarepolicy/entertaiment</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="8" height="16" />&nbsp;&nbsp;8%</td>
+</tr>
+<tr>
+<td align="left">Top/politics/healthcarepolicy/transport</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="22" height="16" />&nbsp;&nbsp;22%</td>
+</tr>
+<tr>
+<td align="left">Top/politics/healthcarepolicy/safetysteps</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="4" height="16" />&nbsp;&nbsp;4%</td>
+</tr>
+<tr>
+<td align="left">Top/politics/healthcarepolicy/quarntine_strengthening</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="9" height="16" />&nbsp;&nbsp;9%</td>
+</tr>
+<tr>
+<td align="left">Top/politics/illpoliticians</td>
+<td></td>
+<td align="left"><label></label>0%</td>
+</tr>
+<tr>
+<td align="left">Top/technologies</td>
+<td></td>
+<td align="left"><label></label>0%</td>
+</tr>
+<tr>
+<td align="left">Top/technologies/developingofequipment</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="4" height="16" />&nbsp;&nbsp;4%</td>
+</tr>
+<tr>
+<td align="left">Top/science</td>
+<td></td>
+<td align="left"><label></label>0%</td>
+</tr>
+<tr>
+<td align="left">Top/science/existeddrugs</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="1" height="16" />&nbsp;&nbsp;1%</td>
+</tr>
+<tr>
+<td align="left">Top/science/developingnewdrugs</td>
+<td></td>
+<td align="left"><label></label>0%</td>
+</tr>
+<tr>
+<td align="left">Top/science/developingvaccine</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="3" height="16" />&nbsp;&nbsp;3%</td>
+</tr>
+<tr>
+<td align="left">Top/society/familytroubles</td>
+<td></td>
+<td align="left"><img src="C:\TK240\bateiko\ok\graphical_temp\blue-pixel.png" width="5" height="16" />&nbsp;&nbsp;5%</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

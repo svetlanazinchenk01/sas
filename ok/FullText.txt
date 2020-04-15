@@ -1,0 +1,37 @@
+                                                     	AllDocs	In-Cat	Total	In-Cat %	Neg	N-tot	Neg %	Prec	Populat	Pop Rel
+                                                  Top	0	0	0	0	0	0	0	0	0	0	
+                   Top/society/potentialdeathhisteria	0	0	0	0	0	0	0	0	0	0	
+                                     Top/technologies	0	0	44	0	0	0	0	0	0	0	
+                                          Top/science	0	0	22	0	0	0	0	0	0	0	
+                       Top/science/developingnewdrugs	0	0	44	0	0	0	0	0	0	0	
+                          Top/politics/illpoliticians	1	0	44	0	0	0	0	0	0	0	
+               Top/technologies/developingofequipment	1	1	22	4	0	0	0	100	0	0	
+                             Top/science/existeddrugs	1	1	60	1	0	0	0	100	0	0	
+                       Top/sport/coronacanceledevents	2	2	60	3	0	0	0	100	0	0	
+                           Top/society/familytroubles	7	3	54	5	0	0	0	42	0	0	
+                          Top/society/producthisteria	8	1	60	1	0	0	0	12	0	0	
+                        Top/science/developingvaccine	9	2	60	3	0	0	0	22	0	0	
+                           Top/economy/coronabusiness	11	2	70	2	0	0	0	18	0	0	
+                           Top/society/potentialdeath	17	0	0	0	0	0	0	0	0	0	
+                                     Top/sport/events	17	4	60	6	0	0	0	23	0	0	
+              Top/politics/healthcarepolicy/education	21	12	271	4	0	0	0	57	0	0	
+                             Top/economy/coronaimport	32	7	70	10	0	0	0	21	0	0	
+                             Top/health/dissemination	39	6	44	13	0	0	0	15	0	0	
+                            Top/economy/coronajobloss	45	10	45	22	0	0	0	22	0	0	
+                             Top/economy/coronacrisis	49	17	45	37	0	0	0	34	0	0	
+                                            Top/sport	50	0	0	0	0	0	0	0	0	0	
+                        Top/politics/healthcarepolicy	56	13	271	4	0	0	0	23	0	0	
+           Top/politics/healthcarepolicy/entertaiment	58	24	271	8	0	0	0	41	0	0	
+                                   Top/health/recover	61	10	44	22	0	0	0	16	0	0	
+              Top/politics/healthcarepolicy/transport	63	16	70	22	0	0	0	25	0	0	
+                                    Top/society/death	69	0	0	0	0	0	0	0	0	0	
+Top/politics/healthcarepolicy/quarntine_strengthening	71	27	271	9	0	0	0	38	0	0	
+                                   Top/health/illness	74	10	44	22	0	0	0	13	0	0	
+                                          Top/economy	75	0	0	0	0	0	0	0	0	0	
+                                   Top/economy/crisis	90	26	45	57	0	0	0	28	0	0	
+            Top/politics/healthcarepolicy/safetysteps	95	13	271	4	0	0	0	13	0	0	
+                                         Top/politics	118	0	0	0	0	0	0	0	0	0	
+                                           Top/health	174	0	0	0	0	0	0	0	0	0	
+                                          Top/society	199	0	0	0	0	0	0	0	0	0	
+                                      Top/coronavirus	374	58	60	96	0	0	0	15	0	0	
+                                                     											

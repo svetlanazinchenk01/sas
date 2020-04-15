@@ -18,6 +18,7 @@
  
  
  
+ 
 ]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
@@ -30,7 +31,8 @@
 <StringID><![CDATA[Top/coronavirus]]></StringID>
 <catpath><![CDATA[Top/coronavirus]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR,"коронавірус*","вірус*","інфекці*","пандемі*","захворювання*","covid-19","sars-cov-2"))]]>
+<![CDATA[(OR,(OR,"коронавірус*","вірус*","інфекці*","пандемі*","захворювання*","covid-19","sars-cov-2")) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
@@ -52,6 +54,7 @@
  
  
  
+ 
 ]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
@@ -67,7 +70,8 @@
 <StringID><![CDATA[Top/economy/crisis]]></StringID>
 <catpath><![CDATA[Top/economy/crisis]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR,"криз*",(SENT,(OR,"індекс*","бірж*","ринок*","ринки*","акці*","ринках*","курс*","попит*","ВВП*","економік*","економіц*","ОВДП"),(OR,"впав*","впали*","впадуть*","знизят*","зниж*","падають*","падін*","*повільн*","зменш*","обвал*")),"рецесі*",(SENT,(OR,"зупин*","втрат*","цін*"),(OR,"зростання*","зазнали*","зазнають*","зросл*")),"девальваці*","дефолт*","інфляці*","девелерідж*",(DIST_4,(OR,"*дешевін*","дешевіє@","падін*","падає@","обвал*","зниж*"),(OR,"валют*","гривн*","рубль@","курс@")),(DIST_4,(OR,"*рост*","*дорожч*"),(OR,"курс@","валют*","долар@","євро@","фунт*"))))]]>
+<![CDATA[(OR,(OR,"криз*",(SENT,(OR,"індекс*","бірж*","ринок*","ринки*","акці*","ринках*","курс*","попит*","ВВП*","економік*","економіц*","ОВДП"),(OR,"впав*","впали*","впадуть*","знизят*","зниж*","падають*","падін*","*повільн*","зменш*","обвал*")),"рецесі*",(SENT,(OR,"зупин*","втрат*","цін*"),(OR,"зростання*","зазнали*","зазнають*","зросл*")),"девальваці*","дефолт*","інфляці*","девелерідж*",(DIST_4,(OR,"*дешевін*","дешевіє@","падін*","падає@","обвал*","зниж*"),(OR,"валют*","гривн*","рубль@","курс@")),(DIST_4,(OR,"*рост*","*дорожч*"),(OR,"курс@","валют*","долар@","євро@","фунт*")))) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
@@ -85,6 +89,7 @@
 <![CDATA[(OR,(OR,(SENT,_tmac:"@Top/coronavirus",_tmac:"@Top/economy/crisis"))) 
  
  
+ 
 ]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
@@ -100,7 +105,8 @@
 <StringID><![CDATA[Top/economy/coronajobloss]]></StringID>
 <catpath><![CDATA[Top/economy/coronajobloss]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR,(DIST_12,(DIST_3,(OR,"карантин@",_tmac:"@Top/coronavirus")),(OR,"втрат*","зазна*","залиш*","скорочен*"),(OR,"робот*","збитк*","дохід*",(AND,"робоч*","місц*"),"штат*","працівник*")),(SENT,(OR,"карантин@",_tmac:"@Top/coronavirus"),(DIST_4,(OR,"галуз*","комапнія@","бізнес*","виробн*","підприєм*"),(OR,"втрат*","*банкрот*","збиток@","збитки@","вплив*","змін*","скороч*","скорот*","закрит*","пристос*","втрач*","підтрим*"))),(SENT,(OR,"виплач*","*дати@","заява@","оплач*","компенс*","надання@","надати@","змін*","підтрим*"),(OR,"субсидія@","зарплата@","допомога@","відпустка@",(AND,(OR,"плата@","платня@"),"заробітня@"),(AND,"статус@","безробіт*"),"виплат*","безробіт*",(AND,"соціальн*","допомога@")),(OR,"карантин@",_tmac:"@Top/coronavirus"))))]]>
+<![CDATA[(OR,(OR,(DIST_12,(DIST_3,(OR,"карантин@",_tmac:"@Top/coronavirus")),(OR,"втрат*","зазна*","залиш*","скорочен*"),(OR,"робот*","збитк*","дохід*",(AND,"робоч*","місц*"),"штат*","працівник*")),(SENT,(OR,"карантин@",_tmac:"@Top/coronavirus"),(DIST_4,(OR,"галуз*","комапнія@","бізнес*","виробн*","підприєм*"),(OR,"втрат*","*банкрот*","збиток@","збитки@","вплив*","змін*","скороч*","скорот*","закрит*","пристос*","втрач*","підтрим*"))),(SENT,(OR,"виплач*","*дати@","заява@","оплач*","компенс*","надання@","надати@","змін*","підтрим*"),(OR,"субсидія@","зарплата@","допомога@","відпустка@",(AND,(OR,"плата@","платня@"),"заробітня@"),(AND,"статус@","безробіт*"),"виплат*","безробіт*",(AND,"соціальн*","допомога@")),(OR,"карантин@",_tmac:"@Top/coronavirus")))) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
@@ -115,7 +121,8 @@
 <StringID><![CDATA[Top/economy/coronabusiness]]></StringID>
 <catpath><![CDATA[Top/economy/coronabusiness]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR,(DIST_8,(OR,"бізнес*","компані*","підприємств*","виробник*","виробниц*","сервіс*","служб*","мережа@"),(OR,"допомог*","співпрац*","*пропону*","погодилис*","згод*","підтрим*"),(OR,"влада@","медик*","лікар*","країна@","моз",(DIST_3,"міністерство@","охорони@","здоров`я@")))))]]>
+<![CDATA[(OR,(OR,(DIST_8,(OR,"бізнес*","компані*","підприємств*","виробник*","виробниц*","сервіс*","служб*","мережа@"),(OR,"допомог*","співпрац*","*пропону*","погодилис*","згод*","підтрим*"),(OR,"влада@","медик*","лікар*","країна@","моз",(DIST_3,"міністерство@","охорони@","здоров`я@"))))) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
@@ -130,7 +137,8 @@
 <StringID><![CDATA[Top/economy/coronaimport]]></StringID>
 <catpath><![CDATA[Top/economy/coronaimport]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR,(SENT,(OR,"прибул*","достав*","отрима*","парті*"),(OR,"*тест*","дезінфектор*",(AND,(OR,"засоб*","засіб*"),"індивідуальн*","захист*"),(AND,"медичний@","вантаж@"),"ШВЛ",(AND,"апарат*","штучн*","вентиляці*","легень"),"ПЛР*",(AND,"полімеразн*","ланцюгов*","реакці*"),"маска@",(AND,"костюм*","захист*")))))]]>
+<![CDATA[(OR,(OR,(SENT,(OR,"прибул*","достав*","отрима*","парті*"),(OR,"*тест*","дезінфектор*",(AND,(OR,"засоб*","засіб*"),"індивідуальн*","захист*"),(AND,"медичний@","вантаж@"),"ШВЛ",(AND,"апарат*","штучн*","вентиляці*","легень"),"ПЛР*",(AND,"полімеразн*","ланцюгов*","реакці*"),"маска@",(AND,"костюм*","захист*"))))) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
@@ -152,6 +160,7 @@
  
  
  
+ 
 ]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
@@ -167,7 +176,8 @@
 <StringID><![CDATA[Top/health/dissemination]]></StringID>
 <catpath><![CDATA[Top/health/dissemination]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR,(DIST_7,(OR,"захвор*",(DIST_4,(OR,"випад*","кількіст*"),"захвор*","хвороб*")),(OR,"можуть@","можливий@","можливі@","можлива@")),(DIST_4,(OR,"можуть@"),(OR,"заразит*","підхоп*","інфік*"))))]]>
+<![CDATA[(OR,(OR,(DIST_7,(OR,"захвор*",(DIST_4,(OR,"випад*","кількіст*"),"захвор*","хвороб*")),(OR,"можуть@","можливий@","можливі@","можлива@")),(DIST_4,(OR,"можуть@"),(OR,"заразит*","підхоп*","інфік*")))) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
@@ -182,7 +192,8 @@
 <StringID><![CDATA[Top/health/illness]]></StringID>
 <catpath><![CDATA[Top/health/illness]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(DIST_3,(OR,"хворі*","захвор*","хвори*","хвора","занедужа*"),(OR,"випад*","кількіст*")))]]>
+<![CDATA[(OR,(DIST_3,(OR,"хворі*","захвор*","хвори*","хвора","занедужа*"),(OR,"випад*","кількіст*"))) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
@@ -197,7 +208,8 @@
 <StringID><![CDATA[Top/health/recover]]></StringID>
 <catpath><![CDATA[Top/health/recover]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(NOTINDIST_3,"одужали@","не"))]]>
+<![CDATA[(OR,(NOTINDIST_3,"одужали@","не")) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
@@ -213,6 +225,7 @@
 <catpath><![CDATA[Top/society]]></catpath>
 <rules type="BOOLEAN">
 <![CDATA[(OR,(OR,"суспільство@","громад*")) 
+ 
  
  
  
@@ -238,6 +251,7 @@
  
  
  
+ 
 ]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
@@ -250,29 +264,11 @@
 <ShortName><![CDATA[potentialdeathhisteria]]></ShortName>
 </Topic>
 <Topic>
-<StringID><![CDATA[Top/society/depression]]></StringID>
-<catpath><![CDATA[Top/society/depression]]></catpath>
-<rules type="LINGUISTICS">
-<![CDATA[
- 
- 
- 
- 
-]]>
-</rules>
-<ratio><![CDATA[10]]></ratio>
-<CreationDate><![CDATA[April 04, 2014]]></CreationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Суспільство\depression]]></TestPath>
-<RuleStatus><![CDATA[1]]></RuleStatus>
-<DisplayName><![CDATA[depression]]></DisplayName>
-<Name><![CDATA[depression]]></Name>
-<ShortName><![CDATA[depression]]></ShortName>
-</Topic>
-<Topic>
 <StringID><![CDATA[Top/society/death]]></StringID>
 <catpath><![CDATA[Top/society/death]]></catpath>
 <rules type="BOOLEAN">
 <![CDATA[(OR,(OR,"смерть@")) 
+ 
  
  
  
@@ -295,6 +291,7 @@
  
  
  
+ 
 ]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
@@ -310,7 +307,8 @@
 <StringID><![CDATA[Top/society/producthisteria]]></StringID>
 <catpath><![CDATA[Top/society/producthisteria]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR,(SENT,(OR,"дефіцит@","нестача@"),(OR,"продукт*","гречка@","папір@","круп*","санітайзер*","антисептик*","спирт*","масок@","їж*","дезінфек*","респіратор@")),(SENT,(OR,"люди@","населення@","народ@"),(OR,"*куповують@","скупити@","запасают*","*куповувати@")),(SENT,"полиці@",(OR,"пуст*","*порожн*"))))]]>
+<![CDATA[(OR,(OR,(SENT,(OR,"дефіцит@","нестача@"),(OR,"продукт*","гречка@","папір@","круп*","санітайзер*","антисептик*","спирт*","масок@","їж*","дезінфек*","респіратор@")),(SENT,(OR,"люди@","населення@","народ@"),(OR,"*куповують@","скупити@","запасают*","*куповувати@")),(SENT,"полиці@",(OR,"пуст*","*порожн*")))) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 07, 2014]]></CreationDate>
@@ -322,10 +320,26 @@
 <ShortName><![CDATA[producthisteria]]></ShortName>
 </Topic>
 <Topic>
+<StringID><![CDATA[Top/society/familytroubles]]></StringID>
+<catpath><![CDATA[Top/society/familytroubles]]></catpath>
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,(DIST_20,(OR,"складнощі@","проблеми@","напруга@","напруження@"),(OR,"сім`я@","стосунк*","близьк*","родина@","діти@","партнер*"),(OR,"*ізоляція@","карантин@",_tmac:"@Top/coronavirus")),(DIST_15,(OR,"розлучен*"),(OR,"*ізоляція@","карантин@",_tmac:"@Top/coronavirus"))))]]>
+</rules>
+<ratio><![CDATA[10]]></ratio>
+<CreationDate><![CDATA[April 16, 2014]]></CreationDate>
+<ModificationDate><![CDATA[April 16, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\Texts\Health]]></TestPath>
+<RuleStatus><![CDATA[1]]></RuleStatus>
+<DisplayName><![CDATA[familytroubles]]></DisplayName>
+<Name><![CDATA[familytroubles]]></Name>
+<ShortName><![CDATA[familytroubles]]></ShortName>
+</Topic>
+<Topic>
 <StringID><![CDATA[Top/sport]]></StringID>
 <catpath><![CDATA[Top/sport]]></catpath>
 <rules type="BOOLEAN">
 <![CDATA[(OR,(OR,"спорт*")) 
+ 
  
  
  
@@ -347,16 +361,12 @@
 <StringID><![CDATA[Top/sport/events]]></StringID>
 <catpath><![CDATA[Top/sport/events]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR)) 
- 
- 
- 
-]]>
+<![CDATA[(OR,(OR,"олімпіада@","змагання@","матч@","естафета@",(DIST_3,"ігри@",(OR,"паралімпійські@","олімпійські@")),"євро-2020","чемпіонат@",(DIST_3,(OR,"чемпіонів@","європи@"),"ліга@")))]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
-<ModificationDate><![CDATA[April 04, 2014]]></ModificationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Спорт\events]]></TestPath>
+<ModificationDate><![CDATA[April 16, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\coronavirus]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[events]]></DisplayName>
 <Name><![CDATA[events]]></Name>
@@ -365,17 +375,13 @@
 <Topic>
 <StringID><![CDATA[Top/sport/coronacanceledevents]]></StringID>
 <catpath><![CDATA[Top/sport/coronacanceledevents]]></catpath>
-<rules type="LINGUISTICS">
-<![CDATA[
- 
- 
- 
- 
-]]>
+<rules type="BOOLEAN">
+<![CDATA[(OR,(OR,(DIST_15,(OR,"перенесен*","перенести@","відмінити@","скасувати@","скасован*",(DIST_3,"загроз*","зрив*"),"зірван*","зривається@"),(OR,"карантин@",_tmac:"@Top/coronavirus"),_tmac:"@Top/sport/events")))]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
-<TestPath><![CDATA[C:\Tk240\bateiko\bbc\Спорт\coronacanceledevents]]></TestPath>
+<ModificationDate><![CDATA[April 16, 2014]]></ModificationDate>
+<TestPath><![CDATA[C:\Tk240\bateiko\bbc\coronavirus]]></TestPath>
 <RuleStatus><![CDATA[1]]></RuleStatus>
 <DisplayName><![CDATA[coronacanceledevents]]></DisplayName>
 <Name><![CDATA[coronacanceledevents]]></Name>
@@ -386,6 +392,7 @@
 <catpath><![CDATA[Top/politics]]></catpath>
 <rules type="BOOLEAN">
 <![CDATA[(OR,(OR,"політи*")) 
+ 
  
  
  
@@ -407,7 +414,8 @@
 <StringID><![CDATA[Top/politics/healthcarepolicy]]></StringID>
 <catpath><![CDATA[Top/politics/healthcarepolicy]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(SENT,(ORDDIST_16,(OR,"ухвал*","*провадж*","ввели*","заклик*","ввести*","введуть","умови*","вводять@"),(OR,"карантин*","обмеж*",(AND,"заход*","протиді*"),"обсерваці*","ізоляці*",(DIST_3,"надзвич*","ситуаці*"))),(NOTINDIST_12,(OR,"введення@","ввести@","вводять@","*провадж*"),(OR,(DIST_3,"надзвич*","стан*"),(DIST_3,"коменд*","годин*"),"жорстк*"))))]]>
+<![CDATA[(OR,(SENT,(ORDDIST_16,(OR,"ухвал*","*провадж*","ввели*","заклик*","ввести*","введуть","умови*","вводять@"),(OR,"карантин*","обмеж*",(AND,"заход*","протиді*"),"обсерваці*","ізоляці*",(DIST_3,"надзвич*","ситуаці*"))),(NOTINDIST_12,(OR,"введення@","ввести@","вводять@","*провадж*"),(OR,(DIST_3,"надзвич*","стан*"),(DIST_3,"коменд*","годин*"),"жорстк*")))) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
@@ -422,7 +430,8 @@
 <StringID><![CDATA[Top/politics/healthcarepolicy/education]]></StringID>
 <catpath><![CDATA[Top/politics/healthcarepolicy/education]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR,(ORDDIST_15,(OR,"закрит*","припин*","*зупин*"),(OR,"школ*","шкіл*","університет*","навчання","ВНЗ",(DIST_3,"заклад*",(OR,"навчальн*","освіт*")),"виші@"))))]]>
+<![CDATA[(OR,(OR,(ORDDIST_15,(OR,"закрит*","припин*","*зупин*"),(OR,"школ*","шкіл*","університет*","навчання","ВНЗ",(DIST_3,"заклад*",(OR,"навчальн*","освіт*")),"виші@")))) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 05, 2014]]></CreationDate>
@@ -437,7 +446,8 @@
 <StringID><![CDATA[Top/politics/healthcarepolicy/entertaiment]]></StringID>
 <catpath><![CDATA[Top/politics/healthcarepolicy/entertaiment]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR,(SENT,(OR,"закрит*","припин*","*зупин*","скасов*","скасув*","заборон*","закрив*"),(OR,"ТРЦ","*театр*","ресторан*","кафе",(DIST_3,"масов*",(OR,"захід*","заход*","зібрання")),"фестивал*",(DIST_3,"громадськ*","місц*"),"стадіон*",(DIST_3,(OR,"торгівельн*","спортивн*"),"майданчик*"),"парк*",(DIST_3,"зон*","відпочинку"),"концерт*","фітнес-центр*",(DIST_3,"місц*","скупчення@"),(DIST_3,"торг*","центр*"),(DIST_3,"розваж*","заход*")))))]]>
+<![CDATA[(OR,(OR,(SENT,(OR,"закрит*","припин*","*зупин*","скасов*","скасув*","заборон*","закрив*"),(OR,"ТРЦ","*театр*","ресторан*","кафе",(DIST_3,"масов*",(OR,"захід*","заход*","зібрання")),"фестивал*",(DIST_3,"громадськ*","місц*"),"стадіон*",(DIST_3,(OR,"торгівельн*","спортивн*"),"майданчик*"),"парк*",(DIST_3,"зон*","відпочинку"),"концерт*","фітнес-центр*",(DIST_3,"місц*","скупчення@"),(DIST_3,"торг*","центр*"),(DIST_3,"розваж*","заход*"))))) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 05, 2014]]></CreationDate>
@@ -452,7 +462,8 @@
 <StringID><![CDATA[Top/politics/healthcarepolicy/transport]]></StringID>
 <catpath><![CDATA[Top/politics/healthcarepolicy/transport]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR,(DIST_6,(OR,"обеж*","припин*","*зупин*"),(OR,"транспорт*","метро*",(AND,"маршрутн*","таксі"),"автобус*","поїзд*","електричок*","трамва*","залізниц*","потяг*")),(SENT,(OR,"розробл*","створен*","складен*"),(OR,"маршрут*")),(DIST_6,(OR,"обмеж*","припин*","*зупин*","закрит*"),(OR,"перевезен*","авіасполучення","рейс*","кордон*","сполучення@",(AND,"залізничн*","транспорт*"),"сполучати@"))))]]>
+<![CDATA[(OR,(OR,(DIST_6,(OR,"обеж*","припин*","*зупин*"),(OR,"транспорт*","метро*",(AND,"маршрутн*","таксі"),"автобус*","поїзд*","електричок*","трамва*","залізниц*","потяг*")),(SENT,(OR,"розробл*","створен*","складен*"),(OR,"маршрут*")),(DIST_6,(OR,"обмеж*","припин*","*зупин*","закрит*"),(OR,"перевезен*","авіасполучення","рейс*","кордон*","сполучення@",(AND,"залізничн*","транспорт*"),"сполучати@")))) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 05, 2014]]></CreationDate>
@@ -467,7 +478,8 @@
 <StringID><![CDATA[Top/politics/healthcarepolicy/safetysteps]]></StringID>
 <catpath><![CDATA[Top/politics/healthcarepolicy/safetysteps]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR,(DIST_12,(OR,"носити*","*лишатис*","*лишитис*","*дягати","*дягнути","пересуватис*","передбач*","перебув*","відвідув*","*ходит*","переміщ*"),(OR,"маск*","масок","вулиц*","вдома","респіратор@",(AND,"засоб*","захист*",(OR,"індивідуальн*","особист*")),(AND,"громадськ*","місц*"),"*ізол*","обсерваці*"))))]]>
+<![CDATA[(OR,(OR,(DIST_12,(OR,"носити*","*лишатис*","*лишитис*","*дягати","*дягнути","пересуватис*","передбач*","перебув*","відвідув*","*ходит*","переміщ*"),(OR,"маск*","масок","вулиц*","вдома","респіратор@",(AND,"засоб*","захист*",(OR,"індивідуальн*","особист*")),(AND,"громадськ*","місц*"),"*ізол*","обсерваці*")))) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 05, 2014]]></CreationDate>
@@ -482,7 +494,8 @@
 <StringID><![CDATA[Top/politics/healthcarepolicy/quarntine_strengthening]]></StringID>
 <catpath><![CDATA[Top/politics/healthcarepolicy/quarntine_strengthening]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR,(ORDDIST_15,(OR,"посил*","жорстк*"),(OR,"карантин*","обмеж*","обсерваці*","ізоляці*",(DIST_3,"обмеж*","заход*"),(DIST_3,"карантин*","заход*"))),(DIST_5,(OR,"*провадж*","ввели@","введення@","введуть@"),(OR,(DIST_3,"надзвич*","стан*"),(DIST_3,"коменд*","годин*")))))]]>
+<![CDATA[(OR,(OR,(ORDDIST_15,(OR,"посил*","жорстк*"),(OR,"карантин*","обмеж*","обсерваці*","ізоляці*",(DIST_3,"обмеж*","заход*"),(DIST_3,"карантин*","заход*"))),(DIST_5,(OR,"*провадж*","ввели@","введення@","введуть@"),(OR,(DIST_3,"надзвич*","стан*"),(DIST_3,"коменд*","годин*"))))) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 07, 2014]]></CreationDate>
@@ -498,6 +511,7 @@
 <catpath><![CDATA[Top/politics/illpoliticians]]></catpath>
 <rules type="BOOLEAN">
 <![CDATA[(OR,(OR,(SENT,_tmac:"@Top/health/illness",(OR,"*прем`єр*","*міністр","президент","депутат","урядовець","король"),_tmac:"@Top/coronavirus"))) 
+ 
  
  
 ]]>
@@ -522,6 +536,7 @@
  
  
  
+ 
 ]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
@@ -535,7 +550,8 @@
 <StringID><![CDATA[Top/technologies/developingofequipment]]></StringID>
 <catpath><![CDATA[Top/technologies/developingofequipment]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR,(SENT,(OR,"створ*","винайшли@","розробили@","зробили@","придумали@","відкрили@","відкриття@"),(OR,"ШВЛ",(DIST_3,"штучн*","вентиляці*","легень@")),"апарат*")))]]>
+<![CDATA[(OR,(OR,(SENT,(OR,"створ*","винайшли@","розробили@","зробили@","придумали@","відкрили@","відкриття@"),(OR,"ШВЛ",(DIST_3,"штучн*","вентиляці*","легень@")),"апарат*"))) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
@@ -555,6 +571,7 @@
  
  
  
+ 
 ]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
@@ -568,7 +585,8 @@
 <StringID><![CDATA[Top/science/existeddrugs]]></StringID>
 <catpath><![CDATA[Top/science/existeddrugs]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR,(SENT,(OR,"застосовують@","лікують@"),(OR,"ліки@","препарат*"),(OR,"малярія@","ебола@","ревматизм*","ВІЛ*"),_tmac:"@Top/coronavirus"),(SENT,(OR,"застосовують@","лікують@"),(OR,"противірусними@","противірусний@","імуноглобулін*","кортикостероїд*","гідроксихлорин@","азітроміцин@","хлорохин@","лопінавір@","ремдесивір@","фавіпіравір@","авіган@")),(SENT,(OR,"лікування@"),(OR,"симптоматичне@"),_tmac:"@Top/coronavirus")))]]>
+<![CDATA[(OR,(OR,(SENT,(OR,"застосовують@","лікують@"),(OR,"ліки@","препарат*"),(OR,"малярія@","ебола@","ревматизм*","ВІЛ*"),_tmac:"@Top/coronavirus"),(SENT,(OR,"застосовують@","лікують@"),(OR,"противірусними@","противірусний@","імуноглобулін*","кортикостероїд*","гідроксихлорин@","азітроміцин@","хлорохин@","лопінавір@","ремдесивір@","фавіпіравір@","авіган@")),(SENT,(OR,"лікування@"),(OR,"симптоматичне@"),_tmac:"@Top/coronavirus"))) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
@@ -583,7 +601,8 @@
 <StringID><![CDATA[Top/science/developingnewdrugs]]></StringID>
 <catpath><![CDATA[Top/science/developingnewdrugs]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(OR,(DIST_6,(OR,"створ*","винайшли@","розробили@","зробили@","придумали@","відкрили@","відкриття@"),(OR,"ліки@","ліків@","речовин*",(DIST_3,"метод*","лікування@"),"препарат*"),_tmac:"@Top/coronavirus")))]]>
+<![CDATA[(OR,(OR,(DIST_6,(OR,"створ*","винайшли@","розробили@","зробили@","придумали@","відкрили@","відкриття@"),(OR,"ліки@","ліків@","речовин*",(DIST_3,"метод*","лікування@"),"препарат*"),_tmac:"@Top/coronavirus"))) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>
@@ -598,7 +617,8 @@
 <StringID><![CDATA[Top/science/developingvaccine]]></StringID>
 <catpath><![CDATA[Top/science/developingvaccine]]></catpath>
 <rules type="BOOLEAN">
-<![CDATA[(OR,(AND,(DIST_12,(OR,"створ*","винайшли@","розробили@","зробили@","придумали@","відкрили@","відкритт*","розробк*","випробув*","випробов*","тестув*","розробляють@","досліджують@"),(OR,"вакцина@"," Ad5-nCoV"),_tmac:"@Top/coronavirus"),(NOTINDIST_12,(OR,"вакцина@"),(OR,"стрічка@"))))]]>
+<![CDATA[(OR,(AND,(DIST_12,(OR,"створ*","винайшли@","розробили@","зробили@","придумали@","відкрили@","відкритт*","розробк*","випробув*","випробов*","тестув*","розробляють@","досліджують@"),(OR,"вакцина@"," Ad5-nCoV"),_tmac:"@Top/coronavirus"),(NOTINDIST_12,(OR,"вакцина@"),(OR,"стрічка@")))) 
+]]>
 </rules>
 <ratio><![CDATA[10]]></ratio>
 <CreationDate><![CDATA[April 04, 2014]]></CreationDate>

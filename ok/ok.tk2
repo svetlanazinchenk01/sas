@@ -10,4 +10,5 @@ stat_cat=Ukrainian-UTF8.st.cat
 active_cat=rule
 export_utf8_mco
 expand_at_compile
+should_rebuild_categories
 should_rebuild_stat_cat

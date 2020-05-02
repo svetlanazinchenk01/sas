@@ -1,97 +1,338 @@
-Wed Apr 16 12:24:56 2014, Unknown user: Created subcategory familytroubles as child of society
-Wed Apr 16 12:38:53 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 12:38:53 2014, Unknown user: Saved language project.
-Wed Apr 16 12:39:15 2014, Unknown user: Successfully built rule-based categorizer.
-Wed Apr 16 12:39:15 2014, Unknown user: Successfully exported utf8 mco file.
-Wed Apr 16 12:39:15 2014, Unknown user: Set active categorizer to rule-based
-Wed Apr 16 12:39:17 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\society\bbc_291.txt against category Top/society/familytroubles
-Wed Apr 16 12:39:54 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 12:39:54 2014, Unknown user: Saved language project.
-Wed Apr 16 12:40:00 2014, Unknown user: Successfully built rule-based categorizer.
-Wed Apr 16 12:40:00 2014, Unknown user: Successfully exported utf8 mco file.
-Wed Apr 16 12:40:00 2014, Unknown user: Set active categorizer to rule-based
-Wed Apr 16 12:40:15 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\Ukraine\bbc_33.txt against category Top/society/familytroubles
-Wed Apr 16 12:40:44 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 12:40:44 2014, Unknown user: Saved language project.
-Wed Apr 16 12:40:50 2014, Unknown user: Successfully built rule-based categorizer.
-Wed Apr 16 12:40:50 2014, Unknown user: Successfully exported utf8 mco file.
-Wed Apr 16 12:40:50 2014, Unknown user: Set active categorizer to rule-based
-Wed Apr 16 12:41:38 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\health\bbc_209.txt against category Top/society/familytroubles
-Wed Apr 16 12:42:50 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\health\bbc_144.txt against category Top/society/familytroubles
-Wed Apr 16 12:43:01 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\health\bbc_141.txt against category Top/society/familytroubles
-Wed Apr 16 13:01:48 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 13:01:48 2014, Unknown user: Saved language project.
-Wed Apr 16 13:01:49 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 13:01:49 2014, Unknown user: Saved language project.
-Wed Apr 16 13:02:04 2014, Unknown user: Successfully built rule-based categorizer.
-Wed Apr 16 13:02:04 2014, Unknown user: Successfully exported utf8 mco file.
-Wed Apr 16 13:02:04 2014, Unknown user: Set active categorizer to rule-based
-Wed Apr 16 13:02:25 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_269.txt against category Top/sport/coronacanceledevents
-Wed Apr 16 13:03:29 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 13:03:29 2014, Unknown user: Saved language project.
-Wed Apr 16 13:03:47 2014, Unknown user: Successfully built rule-based categorizer.
-Wed Apr 16 13:03:47 2014, Unknown user: Successfully exported utf8 mco file.
-Wed Apr 16 13:03:47 2014, Unknown user: Set active categorizer to rule-based
-Wed Apr 16 13:04:09 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_213.txt against category Top/sport/events
-Wed Apr 16 13:04:57 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 13:04:57 2014, Unknown user: Saved language project.
-Wed Apr 16 13:05:04 2014, Unknown user: Successfully built rule-based categorizer.
-Wed Apr 16 13:05:04 2014, Unknown user: Successfully exported utf8 mco file.
-Wed Apr 16 13:05:04 2014, Unknown user: Set active categorizer to rule-based
-Wed Apr 16 13:05:07 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_320.txt against category Top/sport/events
-Wed Apr 16 13:05:44 2014, Unknown user: Successfully built rule-based categorizer.
-Wed Apr 16 13:05:44 2014, Unknown user: Successfully exported utf8 mco file.
-Wed Apr 16 13:05:44 2014, Unknown user: Set active categorizer to rule-based
-Wed Apr 16 13:05:46 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 13:05:46 2014, Unknown user: Saved language project.
-Wed Apr 16 13:05:48 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_269.txt against category Top/sport/events
-Wed Apr 16 13:05:56 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_226.txt against category Top/sport/events
-Wed Apr 16 13:06:13 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 13:06:13 2014, Unknown user: Saved language project.
-Wed Apr 16 13:06:18 2014, Unknown user: Successfully built rule-based categorizer.
-Wed Apr 16 13:06:18 2014, Unknown user: Successfully exported utf8 mco file.
-Wed Apr 16 13:06:18 2014, Unknown user: Set active categorizer to rule-based
-Wed Apr 16 13:06:21 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_222.txt against category Top/sport/events
-Wed Apr 16 13:07:37 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 13:07:37 2014, Unknown user: Saved language project.
-Wed Apr 16 13:07:42 2014, Unknown user: Successfully built rule-based categorizer.
-Wed Apr 16 13:07:42 2014, Unknown user: Successfully exported utf8 mco file.
-Wed Apr 16 13:07:42 2014, Unknown user: Set active categorizer to rule-based
-Wed Apr 16 13:07:44 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_269.txt against category Top/sport/events
-Wed Apr 16 13:07:49 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_222.txt against category Top/sport/events
-Wed Apr 16 13:08:54 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 13:08:54 2014, Unknown user: Saved language project.
-Wed Apr 16 13:09:00 2014, Unknown user: Successfully built rule-based categorizer.
-Wed Apr 16 13:09:00 2014, Unknown user: Successfully exported utf8 mco file.
-Wed Apr 16 13:09:00 2014, Unknown user: Set active categorizer to rule-based
-Wed Apr 16 13:09:02 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_222.txt against category Top/sport/events
-Wed Apr 16 13:09:16 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_216.txt against category Top/sport/events
-Wed Apr 16 13:09:26 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_321.txt against category Top/sport/events
-Wed Apr 16 13:09:31 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_213.txt against category Top/sport/events
-Wed Apr 16 13:09:51 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_269.txt against category Top/sport/coronacanceledevents
-Wed Apr 16 13:09:59 2014, Unknown user: Tested document C:\Tk240\bateiko\bbc\coronavirus\bbc_222.txt against category Top/sport/coronacanceledevents
-Wed Apr 16 13:10:26 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 13:10:26 2014, Unknown user: Saved language project.
-Wed Apr 16 13:13:49 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 13:13:49 2014, Unknown user: Saved language project.
-Wed Apr 16 13:20:48 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 13:20:48 2014, Unknown user: Saved language project.
-Wed Apr 16 13:20:49 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 13:20:49 2014, Unknown user: Saved language project.
-Wed Apr 16 13:20:49 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 13:20:49 2014, Unknown user: Saved language project.
-Wed Apr 16 13:21:54 2014, Unknown user: Tested document C:\Tk240\bateiko\Texts\Ukraine\bbc_33.txt against category Top/society/familytroubles
-Wed Apr 16 13:38:12 2014, Unknown user: Deleted category depression
-Wed Apr 16 13:38:16 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 13:38:16 2014, Unknown user: Saved language project.
-Wed Apr 16 13:38:18 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 13:38:18 2014, Unknown user: Saved language project.
-Wed Apr 16 13:38:19 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 13:38:19 2014, Unknown user: Saved language project.
-Wed Apr 16 13:38:20 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 13:38:20 2014, Unknown user: Saved language project.
-Wed Apr 16 13:38:21 2014, Unknown user: Saved category taxonomy.
-Wed Apr 16 13:38:21 2014, Unknown user: Saved language project.
-Wed Apr 16 13:42:20 2014, Unknown user: Successfully built rule-based categorizer.
-Wed Apr 16 13:42:20 2014, Unknown user: Successfully exported utf8 mco file.
-Wed Apr 16 13:4
+Sat May 03 10:31:59 2014, Unknown user: Created subcategory criminal as child of politics
+Sat May 03 10:32:51 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 10:32:51 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 10:32:51 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 10:35:30 2014, Unknown user: Performed full category test.
+Sat May 03 10:37:27 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_726.txt against category Top/science/existeddrugs
+Sat May 03 10:37:35 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1070.txt against category Top/science/existeddrugs
+Sat May 03 10:37:40 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_267.txt against category Top/science/existeddrugs
+Sat May 03 10:43:16 2014, Unknown user: Saved category taxonomy.
+Sat May 03 10:43:16 2014, Unknown user: Saved language project.
+Sat May 03 10:43:22 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 10:43:22 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 10:43:22 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 10:43:45 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_736.txt against category Top/science/existeddrugs
+Sat May 03 10:43:51 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_73.txt against category Top/science/existeddrugs
+Sat May 03 10:46:11 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_726.txt against category Top/science/existeddrugs
+Sat May 03 10:46:18 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_614.txt against category Top/science/existeddrugs
+Sat May 03 10:46:25 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_603.txt against category Top/science/existeddrugs
+Sat May 03 10:46:31 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_595.txt against category Top/science/existeddrugs
+Sat May 03 10:46:35 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_591.txt against category Top/science/existeddrugs
+Sat May 03 10:46:38 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_588.txt against category Top/science/existeddrugs
+Sat May 03 10:46:43 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_585.txt against category Top/science/existeddrugs
+Sat May 03 10:46:47 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_581.txt against category Top/science/existeddrugs
+Sat May 03 10:46:52 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_562.txt against category Top/science/existeddrugs
+Sat May 03 10:46:58 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_541.txt against category Top/science/existeddrugs
+Sat May 03 10:47:01 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_512.txt against category Top/science/existeddrugs
+Sat May 03 10:47:08 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_352.txt against category Top/science/existeddrugs
+Sat May 03 10:47:22 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1642.txt against category Top/science/existeddrugs
+Sat May 03 10:47:27 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1513.txt against category Top/science/existeddrugs
+Sat May 03 10:48:28 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1333.txt against category Top/science/existeddrugs
+Sat May 03 10:48:38 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1176.txt against category Top/science/existeddrugs
+Sat May 03 10:51:47 2014, Unknown user: Saved category taxonomy.
+Sat May 03 10:51:47 2014, Unknown user: Saved language project.
+Sat May 03 10:51:49 2014, Unknown user: Saved category taxonomy.
+Sat May 03 10:51:49 2014, Unknown user: Saved language project.
+Sat May 03 10:51:54 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 10:51:54 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 10:51:54 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 10:52:18 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1070.txt against category Top/science/existeddrugs
+Sat May 03 10:52:30 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1485.txt against category Top/science/existeddrugs
+Sat May 03 10:52:37 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_374.txt against category Top/science/existeddrugs
+Sat May 03 10:52:43 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1655.txt against category Top/science/existeddrugs
+Sat May 03 10:52:52 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_512.txt against category Top/science/existeddrugs
+Sat May 03 10:54:18 2014, Unknown user: Saved category taxonomy.
+Sat May 03 10:54:18 2014, Unknown user: Saved language project.
+Sat May 03 10:54:25 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 10:54:25 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 10:54:25 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 10:54:39 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_125.txt against category Top/science/existeddrugs
+Sat May 03 10:56:12 2014, Unknown user: Saved category taxonomy.
+Sat May 03 10:56:12 2014, Unknown user: Saved language project.
+Sat May 03 10:56:13 2014, Unknown user: Saved category taxonomy.
+Sat May 03 10:56:13 2014, Unknown user: Saved language project.
+Sat May 03 10:56:38 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 10:56:38 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 10:56:38 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 10:56:52 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_451.txt against category Top/science/developingnewdrugs
+Sat May 03 10:57:02 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_475.txt against category Top/science/developingnewdrugs
+Sat May 03 10:57:13 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_646.txt against category Top/science/developingnewdrugs
+Sat May 03 10:57:23 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_705.txt against category Top/science/developingnewdrugs
+Sat May 03 10:57:28 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_715.txt against category Top/science/developingnewdrugs
+Sat May 03 10:57:37 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_726.txt against category Top/science/developingnewdrugs
+Sat May 03 10:57:55 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_715.txt against category Top/science/developingnewdrugs
+Sat May 03 10:59:10 2014, Unknown user: Saved category taxonomy.
+Sat May 03 10:59:10 2014, Unknown user: Saved language project.
+Sat May 03 11:00:54 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:00:54 2014, Unknown user: Saved language project.
+Sat May 03 11:00:55 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:00:55 2014, Unknown user: Saved language project.
+Sat May 03 11:02:09 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:02:09 2014, Unknown user: Saved language project.
+Sat May 03 11:02:15 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 11:02:15 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 11:02:15 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 11:02:34 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1413.txt against category Top/science/existeddrugs
+Sat May 03 11:02:40 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1176.txt against category Top/science/existeddrugs
+Sat May 03 11:02:46 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_374.txt against category Top/science/existeddrugs
+Sat May 03 11:02:53 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_312.txt against category Top/science/existeddrugs
+Sat May 03 11:03:02 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_2134.txt against category Top/science/existeddrugs
+Sat May 03 11:03:08 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_591.txt against category Top/science/existeddrugs
+Sat May 03 11:03:25 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_541.txt against category Top/science/existeddrugs
+Sat May 03 11:03:30 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_29.txt against category Top/science/existeddrugs
+Sat May 03 11:03:34 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1383.txt against category Top/science/existeddrugs
+Sat May 03 11:03:38 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1070.txt against category Top/science/existeddrugs
+Sat May 03 11:03:43 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1294.txt against category Top/science/existeddrugs
+Sat May 03 11:03:51 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_614.txt against category Top/science/existeddrugs
+Sat May 03 11:04:09 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:04:09 2014, Unknown user: Saved language project.
+Sat May 03 11:04:37 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:04:37 2014, Unknown user: Saved language project.
+Sat May 03 11:04:47 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 11:04:47 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 11:04:47 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 11:05:06 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_606.txt against category Top/science/existeddrugs
+Sat May 03 11:05:26 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:05:26 2014, Unknown user: Saved language project.
+Sat May 03 11:05:32 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 11:05:32 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 11:05:32 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 11:05:32 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_267.txt against category Top/science/existeddrugs
+Sat May 03 11:05:44 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:05:44 2014, Unknown user: Saved language project.
+Sat May 03 11:06:04 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_267.txt against category Top/science/existeddrugs
+Sat May 03 11:06:08 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_352.txt against category Top/science/existeddrugs
+Sat May 03 11:06:13 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1642.txt against category Top/science/existeddrugs
+Sat May 03 11:09:31 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:09:31 2014, Unknown user: Saved language project.
+Sat May 03 11:09:38 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 11:09:38 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 11:09:38 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 11:09:57 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_1.txt against category Top/science/developingnewdrugs
+Sat May 03 11:10:02 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_367.txt against category Top/science/developingnewdrugs
+Sat May 03 11:10:08 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_451.txt against category Top/science/developingnewdrugs
+Sat May 03 11:10:13 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_475.txt against category Top/science/developingnewdrugs
+Sat May 03 11:10:17 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_602.txt against category Top/science/developingnewdrugs
+Sat May 03 11:10:41 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:10:41 2014, Unknown user: Saved language project.
+Sat May 03 11:10:49 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 11:10:49 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 11:10:49 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 11:11:05 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_475.txt against category Top/science/developingnewdrugs
+Sat May 03 11:11:13 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_716.txt against category Top/science/developingnewdrugs
+Sat May 03 11:11:49 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:11:49 2014, Unknown user: Saved language project.
+Sat May 03 11:11:59 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 11:11:59 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 11:11:59 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 11:12:14 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_602.txt against category Top/science/developingnewdrugs
+Sat May 03 11:12:34 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:12:34 2014, Unknown user: Saved language project.
+Sat May 03 11:12:44 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 11:12:44 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 11:12:44 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 11:13:02 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_1.txt against category Top/science/developingnewdrugs
+Sat May 03 11:13:06 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_367.txt against category Top/science/developingnewdrugs
+Sat May 03 11:13:14 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1212.txt against category Top/science/developingnewdrugs
+Sat May 03 11:14:59 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:14:59 2014, Unknown user: Saved language project.
+Sat May 03 11:16:44 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:16:44 2014, Unknown user: Saved language project.
+Sat May 03 11:17:42 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:17:42 2014, Unknown user: Saved language project.
+Sat May 03 11:28:24 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:28:24 2014, Unknown user: Saved language project.
+Sat May 03 11:28:25 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:28:25 2014, Unknown user: Saved language project.
+Sat May 03 11:29:49 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 11:29:49 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 11:29:49 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 11:30:18 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_291.txt against category Top/science/developingvaccine
+Sat May 03 11:30:25 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_78.txt against category Top/science/developingvaccine
+Sat May 03 11:30:29 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_539.txt against category Top/science/developingvaccine
+Sat May 03 11:30:53 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:30:53 2014, Unknown user: Saved language project.
+Sat May 03 11:31:01 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 11:31:01 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 11:31:01 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 11:31:15 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_715.txt against category Top/science/developingvaccine
+Sat May 03 11:31:40 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:31:40 2014, Unknown user: Saved language project.
+Sat May 03 11:31:46 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 11:31:46 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 11:31:46 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 11:32:00 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_433.txt against category Top/science/developingvaccine
+Sat May 03 11:32:07 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1169.txt against category Top/science/developingvaccine
+Sat May 03 11:33:12 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:33:12 2014, Unknown user: Saved language project.
+Sat May 03 11:33:31 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_715.txt against category Top/science/developingvaccine
+Sat May 03 11:33:37 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_619.txt against category Top/science/developingvaccine
+Sat May 03 11:34:23 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:34:23 2014, Unknown user: Saved language project.
+Sat May 03 11:34:29 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 11:34:29 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 11:34:29 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 11:34:43 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_646.txt against category Top/science/developingnewdrugs
+Sat May 03 11:35:23 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:35:23 2014, Unknown user: Saved language project.
+Sat May 03 11:35:30 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 11:35:30 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 11:35:30 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 11:35:55 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_334.txt against category Top/technologies/developingofequipment
+Sat May 03 11:36:01 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1010.txt against category Top/technologies/developingofequipment
+Sat May 03 11:36:08 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_205.txt against category Top/technologies/developingofequipment
+Sat May 03 11:37:26 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:37:26 2014, Unknown user: Saved language project.
+Sat May 03 11:37:35 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 11:37:35 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 11:37:35 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 11:37:49 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_143.txt against category Top/technologies/developingofequipment
+Sat May 03 11:38:07 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:38:07 2014, Unknown user: Saved language project.
+Sat May 03 11:38:30 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 11:38:30 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 11:38:30 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 11:38:54 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_885.txt against category Top/technologies/developingofequipment
+Sat May 03 11:39:32 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:39:32 2014, Unknown user: Saved language project.
+Sat May 03 11:39:40 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 11:39:40 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 11:39:40 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 11:40:58 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_885.txt against category Top/technologies/developingofequipment
+Sat May 03 11:41:02 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_879.txt against category Top/technologies/developingofequipment
+Sat May 03 11:41:08 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_781.txt against category Top/technologies/developingofequipment
+Sat May 03 11:41:12 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_707.txt against category Top/technologies/developingofequipment
+Sat May 03 11:41:21 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_551.txt against category Top/technologies/developingofequipment
+Sat May 03 11:41:39 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:41:39 2014, Unknown user: Saved language project.
+Sat May 03 11:41:40 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:41:40 2014, Unknown user: Saved language project.
+Sat May 03 11:41:47 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 11:41:47 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 11:41:47 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 11:42:06 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_551.txt against category Top/technologies/developingofequipment
+Sat May 03 11:42:11 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_2193.txt against category Top/technologies/developingofequipment
+Sat May 03 11:42:33 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:42:33 2014, Unknown user: Saved language project.
+Sat May 03 11:42:50 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 11:42:50 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 11:42:50 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 11:43:02 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1010.txt against category Top/technologies/developingofequipment
+Sat May 03 11:43:23 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_334.txt against category Top/technologies/developingofequipment
+Sat May 03 11:43:28 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_707.txt against category Top/technologies/developingofequipment
+Sat May 03 11:43:32 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_879.txt against category Top/technologies/developingofequipment
+Sat May 03 11:43:36 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_576.txt against category Top/technologies/developingofequipment
+Sat May 03 11:43:51 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_341.txt against category Top/technologies/developingofequipment
+Sat May 03 11:45:16 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:45:16 2014, Unknown user: Saved language project.
+Sat May 03 11:48:37 2014, Unknown user: Saved category taxonomy.
+Sat May 03 11:48:37 2014, Unknown user: Saved language project.
+Sat May 03 11:48:44 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 11:48:44 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 11:48:44 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 11:50:50 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_334.txt against category Top/technologies/developingofequipment
+Sat May 03 11:50:54 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_2193.txt against category Top/technologies/developingofequipment
+Sat May 03 11:51:02 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_2082.txt against category Top/technologies/developingofequipment
+Sat May 03 11:51:09 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_2025.txt against category Top/technologies/developingofequipment
+Sat May 03 11:51:16 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1010.txt against category Top/technologies/developingofequipment
+Sat May 03 11:51:22 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_576.txt against category Top/technologies/developingofequipment
+Sat May 03 11:51:30 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_205.txt against category Top/technologies/developingofequipment
+Sat May 03 11:55:06 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_2025.txt against category Top/technologies/developingofequipment
+Sat May 03 12:07:21 2014, Unknown user: Performed full category test.
+Sat May 03 12:13:50 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_422.txt against category Top/society/producthisteria
+Sat May 03 12:15:43 2014, Unknown user: Saved category taxonomy.
+Sat May 03 12:15:43 2014, Unknown user: Saved language project.
+Sat May 03 12:15:50 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 12:15:50 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 12:15:50 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 12:16:28 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_367.txt against category Top/society/producthisteria
+Sat May 03 12:16:48 2014, Unknown user: Saved category taxonomy.
+Sat May 03 12:16:48 2014, Unknown user: Saved language project.
+Sat May 03 12:16:55 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 12:16:55 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 12:16:55 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 12:17:10 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_82.txt against category Top/society/producthisteria
+Sat May 03 12:18:52 2014, Unknown user: Saved category taxonomy.
+Sat May 03 12:18:52 2014, Unknown user: Saved language project.
+Sat May 03 12:18:53 2014, Unknown user: Unsuccessful in building statistical categorizer
+Sat May 03 12:23:05 2014, Unknown user: Saved category taxonomy.
+Sat May 03 12:23:05 2014, Unknown user: Saved language project.
+Sat May 03 12:24:34 2014, Unknown user: Saved category taxonomy.
+Sat May 03 12:24:34 2014, Unknown user: Saved language project.
+Sat May 03 12:24:52 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 12:24:52 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 12:24:52 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 12:25:32 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_696.txt against category Top/politics/criminal
+Sat May 03 12:25:43 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_571.txt against category Top/politics/criminal
+Sat May 03 12:27:29 2014, Unknown user: Saved category taxonomy.
+Sat May 03 12:27:29 2014, Unknown user: Saved language project.
+Sat May 03 12:27:35 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 12:27:35 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 12:27:35 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 12:27:49 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_106.txt against category Top/politics/criminal
+Sat May 03 12:28:00 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_696.txt against category Top/politics/criminal
+Sat May 03 12:28:04 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_571.txt against category Top/politics/criminal
+Sat May 03 12:28:22 2014, Unknown user: Saved category taxonomy.
+Sat May 03 12:28:22 2014, Unknown user: Saved language project.
+Sat May 03 12:28:28 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 12:28:28 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 12:28:28 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 12:28:41 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_106.txt against category Top/politics/criminal
+Sat May 03 12:31:18 2014, Unknown user: Saved category taxonomy.
+Sat May 03 12:31:18 2014, Unknown user: Saved language project.
+Sat May 03 12:31:27 2014, Unknown user: Saved category taxonomy.
+Sat May 03 12:31:27 2014, Unknown user: Saved language project.
+Sat May 03 12:31:41 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 12:31:41 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 12:31:41 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 12:32:00 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1008.txt against category Top/politics/criminal
+Sat May 03 12:32:30 2014, Unknown user: Saved category taxonomy.
+Sat May 03 12:32:30 2014, Unknown user: Saved language project.
+Sat May 03 12:32:42 2014, Unknown user: Saved category taxonomy.
+Sat May 03 12:32:42 2014, Unknown user: Saved language project.
+Sat May 03 12:32:56 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 12:32:56 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 12:32:56 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 12:37:02 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1601.txt against category Top/politics/criminal
+Sat May 03 12:37:11 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1008.txt against category Top/politics/criminal
+Sat May 03 12:37:14 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_384.txt against category Top/politics/criminal
+Sat May 03 12:37:24 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_245.txt against category Top/politics/criminal
+Sat May 03 12:37:31 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_154.txt against category Top/politics/criminal
+Sat May 03 12:39:09 2014, Unknown user: Saved category taxonomy.
+Sat May 03 12:39:09 2014, Unknown user: Saved language project.
+Sat May 03 12:39:10 2014, Unknown user: Saved category taxonomy.
+Sat May 03 12:39:10 2014, Unknown user: Saved language project.
+Sat May 03 12:39:29 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 12:39:29 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 12:39:29 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 12:39:29 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1008.txt against category Top/politics/criminal
+Sat May 03 12:40:38 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_382.txt against category Top/politics/criminal
+Sat May 03 12:40:42 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_308.txt against category Top/politics/criminal
+Sat May 03 12:41:10 2014, Unknown user: Saved category taxonomy.
+Sat May 03 12:41:10 2014, Unknown user: Saved language project.
+Sat May 03 12:41:17 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 12:41:17 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 12:41:17 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 12:41:37 2014, Unknown user: Saved category taxonomy.
+Sat May 03 12:41:37 2014, Unknown user: Saved language project.
+Sat May 03 12:41:52 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 12:41:52 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 12:41:52 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 12:42:21 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_2058.txt against category Top/politics/criminal
+Sat May 03 12:42:45 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 12:42:45 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 12:42:45 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 12:42:59 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_586.txt against category Top/politics/criminal
+Sat May 03 12:43:12 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_382.txt against category Top/politics/criminal
+Sat May 03 12:43:16 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_137.txt against category Top/politics/criminal
+Sat May 03 12:43:20 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_124.txt against category Top/politics/criminal
+Sat May 03 12:43:23 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_627.txt against category Top/politics/criminal
+Sat May 03 12:43:27 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\bbc_406.txt against category Top/politics/criminal
+Sat May 03 12:43:41 2014, Unknown user: Saved category taxonomy.
+Sat May 03 12:43:41 2014, Unknown user: Saved language project.
+Sat May 03 12:43:48 2014, Unknown user: Successfully built rule-based categorizer.
+Sat May 03 12:43:48 2014, Unknown user: Successfully exported utf8 mco file.
+Sat May 03 12:43:48 2014, Unknown user: Set active categorizer to rule-based
+Sat May 03 12:44:07 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_1799.txt against category Top/politics/criminal
+Sat May 03 12:44:11 2014, Unknown user: Tested document C:\Tk240\bateiko\all_texts\zn_154.txt against category Top/politics/criminal
+Sat May 03 12:44:15 2014, Unknown user: Tested document C:\
